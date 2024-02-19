@@ -1,18 +1,8 @@
 # Authors
 
 Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
+  name        : "Maximilian von Wietersheim-Kramsta"
+  uri         : "https://wietersheim-kramsta.com"
+  email       : "maximilian.wietersheim-kramsta.19@ucl.ac.uk"
+  bio         : "I am a Postdoctoral Research Associate in cosmology within the Euclid Consortium, and the Cosmoparticle Initiative at University College London since June 2023. "
   avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
