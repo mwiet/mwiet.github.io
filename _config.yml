@@ -21,7 +21,7 @@ repository               : "mwiet/mwiet.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile_zoom.jpg"
   name             : "Maximilian von Wietersheim-Kramsta"
   pronouns         : # example: "she/her"  
   bio              : "I am a Postdoctoral Research Associate in cosmology within the Euclid Consortium, and the Cosmoparticle Initiative at University College London since June 2023."
