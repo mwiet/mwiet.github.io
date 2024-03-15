@@ -15,4 +15,4 @@ I am a member of the [Euclid Consortium](https://www.euclid-ec.org/), where I wo
 
 
 
-<img src="/images/Euclid_consortium_logo.png" alt="Euclid Consortium" height="20"> <img src="/images/Euclid_logo_pillars.png" alt="ESA Euclid Space Telescope" height="20"> <img src="/images/KiDS_logo.jpg" alt="ESO Kilo-Degree Survey" height="20">
+<img src="/images/Euclid_consortium_logo.png" title="Euclid Consortium" height="20"> <img src="/images/Euclid_logo_pillars.png" title="ESA Euclid Space Telescope" height="20"> <img src="/images/KiDS_logo.jpg" title="ESO Kilo-Degree Survey" height="20">
