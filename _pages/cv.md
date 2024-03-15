@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Full CV available [here](files/CV-Maximilian-von-Wietersheim-Kramsta.pdf).
+Full CV available [here](https://mwiet.github.io/files/CV-Maximilian-von-Wietersheim-Kramsta.pdf).
 
 Education
 ======
