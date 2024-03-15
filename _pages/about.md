@@ -6,4 +6,6 @@ Understanding the formation and evolution of LSS allows us to determine how grav
 
 I am a member of the [Euclid Consortium](https://www.euclid-ec.org/), where I work on modelling the aforementioned probes as they are observed by the [ESA Euclid Space Telescope](https://www.cosmos.esa.int/web/euclid). I am also a member of the [Kilo-Degree Survey](https://kids.strw.leidenuniv.nl/) (KiDS). Within KiDS, I work on testing the analytical covariance of the main cosmic shear, galaxy clustering and galaxy-galaxy lensing analyses; understanding magnification and implementing simulation-based inference.
 
-![Euclid Consortium](/images/Euclid_consortium_logo.png | height=100) ![ESA Euclid Space Telescope](/images/Euclid_logo_pillars.png | height=100) ![ESO Kilo-Degree Survey](/images/KiDS_logo.jpg | height=100)
+
+
+<img src="/images/Euclid_consortium_logo.png" alt="Euclid Consortium" height=100> <img src="/images/Euclid_logo_pillars.png" alt="ESA Euclid Space Telescope" height=100> <img src="/images/KiDS_logo.jpg" alt="ESO Kilo-Degree Survey" height=100>
