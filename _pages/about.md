@@ -1,14 +1,12 @@
 ---
 permalink: /
-title: "Maximilian von Wietersheim-Kramsta"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-About me
-======
 My research currently focuses on understanding large-scale structure (LSS) through weak gravitational lensing and galaxy clustering. To this end, I develop simulations of LSS as well as simulation-based inference pipelines with future galaxy surveys in mind, together with other various projects.
 
 Understanding the formation and evolution of LSS allows us to determine how gravity and dark matter act on large scales. Therefore, we can test Einstein's theory of general relativity as well as the theory of cold dark matter.
