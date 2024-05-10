@@ -24,11 +24,11 @@ author:
   avatar           : "profile_zoom.jpg"
   name             : "Maximilian von Wietersheim-Kramsta"
   pronouns         : # example: "she/her"  
-  bio              : "I am a Research Fellow in cosmology within the Euclid Consortium, and the Cosmoparticle Initiative at University College London since June 2023."
-  location         : "London, UK"
-  employer         : "University College London"
+  bio              : "I am a postdoc within the Institute for Computational Cosmology (ICC) and the Centre for Extragalactic Astronomy (CEA) at Durham University since April 2024."
+  location         : "Durham, UK"
+  employer         : "Durham University"
   uri              : "https://wietersheim-kramsta.com"# URL
-  email            : "maximilian.wietersheim-kramsta.19@ucl.ac.uk" 
+  email            : "maximilian.von-wietersheim-kramsta@durham.ac.uk" 
 
   # Academic websites
   arxiv            : "https://arxiv.org/a/vonwietersheimkramsta_m_1.html" # URL - Update with the correct link to your profile

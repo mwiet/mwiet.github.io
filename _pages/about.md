@@ -7,12 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-My research currently focuses on understanding large-scale structure (LSS) through weak gravitational lensing and galaxy clustering. To this end, I develop simulations of LSS as well as simulation-based inference pipelines with future galaxy surveys in mind, together with other various projects.
+My research focuses on cosmology, understanding dark matter as well as its effect on the formation of large-scale and small-scale structure. I am interested in modelling the observable effects such as strong gravitational lensing, weak gravitational lensing, and galaxy clustering. To this end, I develop simulations of LSS, galaxy clusters, galaxies as well as simulation-based inference pipelines with future galaxy surveys in mind, together with other various projects.
 
-Understanding the formation and evolution of LSS allows us to determine how gravity and dark matter act on large scales. Therefore, we can test Einstein's theory of general relativity as well as the theory of cold dark matter.
+Understanding the formation and evolution of structure at the largest scales allows us to determine how gravity and dark matter act on the cosmology of the Universe. Simultaneously, studying substucture formation at the scale of galaxies probes the nature of dark matter at small scales. Therefore, we can test Einstein's theory of general relativity as well as the theory of cold dark matter.
 
 I am a member of the [Euclid Consortium](https://www.euclid-ec.org/), where I work on modelling the aforementioned probes as they are observed by the [ESA Euclid Space Telescope](https://www.cosmos.esa.int/web/euclid). I am also a member of the [Kilo-Degree Survey](https://kids.strw.leidenuniv.nl/) (KiDS). Within KiDS, I work on testing the analytical covariance of the main cosmic shear, galaxy clustering and galaxy-galaxy lensing analyses; understanding magnification and implementing simulation-based inference.
 
 
-
-<img src="/images/Euclid_consortium_logo.png" title="Euclid Consortium" height="100"> <img src="/images/Euclid_logo_pillars.png" title="ESA Euclid Space Telescope" height="100"> <img src="/images/KiDS_logo.jpg" title="ESO Kilo-Degree Survey" height="100">
