@@ -64,7 +64,7 @@ Publications
 Leadership roles
 ======
 * Apr. 2024-Now Co-coordinator of charge-transfer inefficiency efforts in the Euclid consortium
-* Jun. 2023-Now Co-ead of variable depth modelling project in the Euclid consortium
+* Jun. 2023-Now Co-lead of variable depth modelling project in the Euclid consortium
 * Jan. 2021-Now Coordinator for the Kilo-Degree Survey numerical covariance efforts
 * Jan. 2021-Now Coordinator of the Kilo-Degree Survey simulation-based inference team
 * Sep. 2021- Jun. 2022: Co-organiser of the cosmology journal club - University College London (UK)
