@@ -45,6 +45,22 @@ Research experience
   * Centro de Astrofisica da Universidade do Porto, CAUP (Portugal)
   * Computational analysis of supernovae and Hubble parameter data.
   * Adviser: Dr Carlos Martins
+
+Leadership roles
+======
+* Apr. 2024-Now: Co-coordinator of charge-transfer inefficiency efforts in the Euclid consortium
+* Jun. 2023-Now: Co-lead of variable depth modelling project in the Euclid consortium
+* Jan. 2021-Now: Coordinator for the Kilo-Degree Survey numerical covariance efforts
+* Jan. 2021-Now: Coordinator of the Kilo-Degree Survey simulation-based inference team
+* May 2023: Co-organiser and chair of a week-long Kilo-Degree Survey’s consortium meeting at the UCL Observatory
+* Sep. 2021- Jun. 2022: Co-organiser of the cosmology journal club - University College London (UK)
+  * Organisation and moderation of the weekly cosmology journal club at UCL.
+  * Development and implementation of the “hybrid” format which combined remote and in-person attendance.
+* Jan. - Jun.2021: Organiser of the astrophysics lunch talks - University College London (UK)
+  * Organisation and moderation of the twice-per-term talks by internal and external speakers.
+* Mar. 2020: Organiser of an outreach stand on dark matter - Your Universe: UCL Festival (UK)
+  * Creation of outreach posters on gravitational lensing and dark matter.
+  * Presentation of short talks to primary and secondary school students over 3 days
   
 Skills
 ======
@@ -60,18 +76,3 @@ Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Leadership roles
-======
-* Apr. 2024-Now Co-coordinator of charge-transfer inefficiency efforts in the Euclid consortium
-* Jun. 2023-Now Co-lead of variable depth modelling project in the Euclid consortium
-* Jan. 2021-Now Coordinator for the Kilo-Degree Survey numerical covariance efforts
-* Jan. 2021-Now Coordinator of the Kilo-Degree Survey simulation-based inference team
-* Sep. 2021- Jun. 2022: Co-organiser of the cosmology journal club - University College London (UK)
-  * Organisation and moderation of the weekly cosmology journal club at UCL.
-  * Development and implementation of the “hybrid” format which combined remote and in-person attendance.
-* Jan. - Jun.2021: Organiser of the astrophysics lunch talks - University College London (UK)
-  * Organisation and moderation of the twice-per-term talks by internal and external speakers.
-* Mar. 2020: Organiser of an outreach stand on dark matter - Your Universe: UCL Festival (UK)
-  * Creation of outreach posters on gravitational lensing and dark matter.
-  * Presentation of short talks to primary and secondary school students over 3 days
