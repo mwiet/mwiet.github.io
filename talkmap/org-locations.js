@@ -5,6 +5,16 @@ var addressPoints = [
     7.2196635
   ],
   [
+    "Innsbruck, Austria",
+    47.2654296,
+    11.3927685
+  ],
+  [
+    "Durham, United Kingdom",
+    54.666667,
+    -1.75
+  ],
+  [
     "London, United Kingdom",
     51.4893335,
     -0.14405508452768728
@@ -15,19 +25,14 @@ var addressPoints = [
     -3.1883749
   ],
   [
-    "Durham, United Kingdom",
-    54.666667,
-    -1.75
-  ],
-  [
     "Paris, France",
-    48.8534951,
-    2.3483915
+    48.8588897,
+    2.3200410217200766
   ],
   [
     "Warsaw, Poland",
-    52.2319581,
-    21.0067249
+    52.2337172,
+    21.071432235636493
   ],
   [
     "Hull, United Kingdom",
