@@ -10,6 +10,11 @@ var addressPoints = [
     11.3927685
   ],
   [
+    "Bristol, United Kingdom",
+    51.4538022,
+    -2.5972985
+  ],
+  [
     "Durham, United Kingdom",
     54.666667,
     -1.75
