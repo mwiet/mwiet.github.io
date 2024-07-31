@@ -13,9 +13,9 @@ Understanding the formation and evolution of structure at the largest scales all
 
 I am a member of the following collaborations:
 
-[<img src="../images/Euclid_consortium_logo.png" height="100" />](https://www.euclid-ec.org/)
-[<img src="../images/Euclid_logo_pillars.png" height="100" />](https://www.cosmos.esa.int/web/euclid)
-[<img src="../images/COSMOSWeb_logo.png" height="100" />](https://cosmos.astro.caltech.edu/page/cosmosweb)
-[<img src="../images/KiDS_logo.jpg" height="100" />](https://kids.strw.leidenuniv.nl/)
+[<img src="../images/Euclid_consortium_logo.png" height="50" />](https://www.euclid-ec.org/)
+[<img src="../images/Euclid_logo_pillars.png" height="50" />](https://www.cosmos.esa.int/web/euclid)
+[<img src="../images/COSMOSWeb_logo.png" height="50" />](https://cosmos.astro.caltech.edu/page/cosmosweb)
+[<img src="../images/KiDS_logo.jpg" height="50" />](https://kids.strw.leidenuniv.nl/)
 
 
