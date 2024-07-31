@@ -15,19 +15,34 @@ var addressPoints = [
     -2.5972985
   ],
   [
-    "Durham, United Kingdom",
-    54.666667,
-    -1.75
-  ],
-  [
     "London, United Kingdom",
     51.4893335,
     -0.14405508452768728
   ],
   [
+    "Durham, United Kingdom",
+    54.666667,
+    -1.75
+  ],
+  [
+    "Krakow, Poland",
+    50.0469432,
+    19.997153435836697
+  ],
+  [
+    "Chania, Greece",
+    35.5120831,
+    24.0191544
+  ],
+  [
     "Edinburgh, United Kingdom",
     55.9533456,
     -3.1883749
+  ],
+  [
+    "Rome, Italy",
+    41.8933203,
+    12.4829321
   ],
   [
     "Paris, France",
