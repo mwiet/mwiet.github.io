@@ -14,11 +14,8 @@ Understanding the formation and evolution of structure at the largest scales all
 I am a member of the following collaborations:
 
 [<img src="../images/Euclid_consortium_logo.png" height="100" />](https://www.euclid-ec.org/)
-[<img src="../images/Euclid_logo_pillars.png" height="100" />](https://www.esa.int/Science_Exploration/Space_Science/Euclid)
-[<img src="../images/Euclid_logo_pillars.png" height="100" />](https://www.esa.int/Science_Exploration/Space_Science/Euclid)
+[<img src="../images/Euclid_logo_pillars.png" height="100" />](https://www.cosmos.esa.int/web/euclid)
 [<img src="../images/COSMOSWeb_logo.png" height="100" />](https://cosmos.astro.caltech.edu/page/cosmosweb)
 [<img src="../images/KiDS_logo.jpg" height="100" />](https://kids.strw.leidenuniv.nl/)
-
-I am a member of the [Euclid Consortium](https://www.euclid-ec.org/), where I work on modelling the aforementioned probes as they are observed by the [ESA Euclid Space Telescope](https://www.cosmos.esa.int/web/euclid). I am also a member of the [Kilo-Degree Survey](https://kids.strw.leidenuniv.nl/) (KiDS). Within KiDS, I work on testing the analytical covariance of the main cosmic shear, galaxy clustering and galaxy-galaxy lensing analyses; understanding magnification and implementing simulation-based inference.
 
 
