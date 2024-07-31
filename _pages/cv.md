@@ -14,7 +14,7 @@ Full CV available [here](https://mwiet.github.io/files/CV-Maximilian-von-Wieters
 Education
 ======
 * Ph.D. in Physics and Astronomy, University College London, 2023
-  * Full thesis available [here](../files/von-Wietersheim-Kramsta-PhD_e-Thesis.pdf)
+  * Full thesis available in the [UCL library](https://discovery.ucl.ac.uk/id/eprint/10185306/) or as a [PDF](../files/von-Wietersheim-Kramsta-PhD_e-Thesis.pdf)
 * MSci in Physics, Imperial College London, 2019
 
 Research experience
