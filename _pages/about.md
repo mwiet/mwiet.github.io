@@ -50,19 +50,19 @@ redirect_from:
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img src="../images/webb_seahorse.jpg" alt="JWST observation of the cosmic seahorse. Credit: ESA/Webb, NASA & CSA, J. Rigby">
+          <img src="../images/webb_seahorse.jpg" alt="JWST observation of the cosmic seahorse. Credit: ESA/Webb, NASA & CSA, J. Rigby" height = "400">
           <div class="carousel-caption">
             JWST observation of the cosmic seahorse. Credit: ESA/Webb, NASA & CSA, J. Rigby
           </div>
         </div>
         <div class="item">
-          <img src="../images/kids_sky.jpg" alt="ESO Kilo-Degree Survey weak lensing data. Credit: ESO KiDS">
+          <img src="../images/kids_sky.jpg" alt="ESO Kilo-Degree Survey weak lensing data. Credit: ESO KiDS" height = "400">
           <div class="carousel-caption">
             ESO Kilo-Degree Survey weak lensing data. Credit: ESO KiDS
           </div>
         </div>
         <div class="item">
-          <img src="../images/kids_sbi_results.jpg" alt="Latest cosmological constraints from SBI analysis of KiDS-1000.">
+          <img src="../images/kids_sbi_results.jpg" alt="Latest cosmological constraints from SBI analysis of KiDS-1000." height = "400">
           <div class="carousel-caption">
             Latest cosmological constraints from <a href="https://arxiv.org/abs/2404.15402"> SBI analysis of KiDS-1000</a>.
           </div>
