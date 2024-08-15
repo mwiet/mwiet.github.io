@@ -11,7 +11,7 @@ redirect_from:
   <head>
     <title></title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=600, initial-scale=1, maximum-scale=3">
+    <meta name="viewport" content="width=60%, initial-scale=1, maximum-scale=3">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
