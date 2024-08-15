@@ -46,6 +46,7 @@ redirect_from:
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner">
         <div class="item active">
@@ -55,17 +56,18 @@ redirect_from:
           </div>
         </div>
         <div class="item">
-          <img src="../images/euclid_perseus.jpg" alt="ESA Euclid observation of Perseus cluster. Credit: ESA">
-          <div class="carousel-caption">
-            ESA Euclid observation of Perseus cluster. Credit: ESA
-          </div>
-        </div>
-        <div class="item">
           <img src="../images/kids_sky.jpg" alt="ESO Kilo-Degree Survey weak lensing data. Credit: ESO KiDS">
           <div class="carousel-caption">
             ESO Kilo-Degree Survey weak lensing data. Credit: ESO KiDS
           </div>
         </div>
+        <div class="item">
+          <img src="../images/kids_sbi_results.jpg" alt="Latest cosmological constraints from SBI analysis of KiDS-1000.">
+          <div class="carousel-caption">
+            Latest cosmological constraints from <a href="https://arxiv.org/abs/2404.15402"> SBI analysis of KiDS-1000</a>.
+          </div>
+        </div>
+        
       </div>
       <a class="left carousel-control" href="#myCarousel" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left"></span>
