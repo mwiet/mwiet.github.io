@@ -18,14 +18,17 @@ redirect_from:
     <style>
       .carousel {
         width: 70%;
-        margin: 0 auto;
+        margin: 0;
+      }
+      .carousel-inner {
+        text-align: center;
       }
       .carousel-inner img {
+        display: inline-block;
         width: 100%;
         height: auto;
       }
     </style>
-  </head>
   </head>
   <div class="container">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
