@@ -27,6 +27,16 @@ redirect_from:
         display: inline-block;
         width: 100%;
         height: auto;
+        text-align: center;
+      }
+      .carousel-caption {
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+        color: #fff; /* White text */
+        padding: 10px; /* Add some padding */
+        width: 100%; /* Make the caption span the full width of the carousel */
+        bottom: 0; /* Position it at the bottom of the carousel */
+        left: 0;
+        text-align: left;
       }
     </style>
   </head>
@@ -39,10 +49,22 @@ redirect_from:
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img src="../images/euclid_perseus.jpg" alt="ESA Euclid observation of Perseus cluster. Credit: ESA" style="width:600px;">
+          <img src="../images/webb_seahorse.jpg" alt="JWST observation of the cosmic seahorse. Credit: ESA/Webb, NASA & CSA, J. Rigby">
+          <div class="carousel-caption">
+            JWST observation of the cosmic seahorse. Credit: ESA/Webb, NASA & CSA, J. Rigby
+          </div>
         </div>
         <div class="item">
-          <img src="../images/euclid_perseus.jpg" alt="ESA Euclid observation of Perseus cluster. Credit: ESA" style="width:600px;">
+          <img src="../images/euclid_perseus.jpg" alt="ESA Euclid observation of Perseus cluster. Credit: ESA">
+          <div class="carousel-caption">
+            ESA Euclid observation of Perseus cluster. Credit: ESA
+          </div>
+        </div>
+        <div class="item">
+          <img src="../images/kids_sky.jpg" alt="ESO Kilo-Degree Survey weak lensing data. Credit: ESO KiDS">
+          <div class="carousel-caption">
+            ESO Kilo-Degree Survey weak lensing data. Credit: ESO KiDS
+          </div>
         </div>
       </div>
       <a class="left carousel-control" href="#myCarousel" data-slide="prev">
