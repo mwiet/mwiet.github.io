@@ -11,10 +11,21 @@ redirect_from:
   <head>
     <title></title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.4">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+      .carousel {
+        width: 70%;
+        margin: 0 auto;
+      }
+      .carousel-inner img {
+        width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
   </head>
   <div class="container">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -25,10 +36,10 @@ redirect_from:
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img src="../images/euclid_perseus.jpg" alt="ESA Euclid observation of Perseus cluster. Credit: ESA" style="width:700px;">
+          <img src="../images/euclid_perseus.jpg" alt="ESA Euclid observation of Perseus cluster. Credit: ESA" style="width:750px;">
         </div>
         <div class="item">
-          <img src="../images/euclid_perseus.jpg" alt="ESA Euclid observation of Perseus cluster. Credit: ESA" style="width:700px;">
+          <img src="../images/euclid_perseus.jpg" alt="ESA Euclid observation of Perseus cluster. Credit: ESA" style="width:750px;">
         </div>
       </div>
       <a class="left carousel-control" href="#myCarousel" data-slide="prev">
