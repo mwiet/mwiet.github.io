@@ -17,7 +17,7 @@ redirect_from:
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <style>
       .carousel {
-        width: 55%;
+        width: 60%;
         margin: 0;
       }
       .carousel-inner {
