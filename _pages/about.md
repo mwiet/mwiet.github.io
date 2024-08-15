@@ -23,21 +23,16 @@ redirect_from:
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 450px;
+        height: 500px;
         position: relative;
-      }
-      .carousel-inner .item {
-        display: flex;
-        align-items: center; /* Vertically center the images */
-        justify-content: center; /* Horizontally center the images */
-        height: 100%; /* Take full height of carousel-inner */
       }
       .carousel-inner img {
         max-height: 100%;
         max-width: 100%;
         height: auto;
         width: auto;
-        object-fit: contain;
+        margin: 0 auto;
+        display: block;
       }
       .carousel-caption {
         position: absolute;
@@ -79,6 +74,7 @@ redirect_from:
             <p id="carousel-caption-text">Latest cosmological constraints from <a href="https://arxiv.org/abs/2404.15402"> SBI analysis of KiDS-1000</a>.</p>
           </div>
         </div>
+        
       </div>
       <a class="left carousel-control" href="#myCarousel" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left"></span>
