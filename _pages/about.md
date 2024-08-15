@@ -62,9 +62,9 @@ redirect_from:
           </div>
         </div>
         <div class="item">
-          <img src="../images/kids_sbi_results.jpg" alt="Latest cosmological constraints from SBI analysis of KiDS-1000." height = "400">
+          <img src="../images/kids_sbi_results.jpg" alt="Latest cosmological constraints from the SBI analysis of KiDS-1000." height = "400">
           <div class="carousel-caption">
-            Latest cosmological constraints from <a href="https://arxiv.org/abs/2404.15402"> SBI analysis of KiDS-1000</a>.
+            Latest cosmological constraints from the <a href="https://arxiv.org/abs/2404.15402"> SBI analysis of KiDS-1000</a>.
           </div>
         </div>
         
