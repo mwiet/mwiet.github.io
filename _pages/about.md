@@ -20,8 +20,11 @@ redirect_from:
         margin: 0;
       }
       .carousel-inner {
-        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         height: 500px;
+        position: relative;
       }
       .carousel-inner img {
         max-height: 100%;
@@ -32,13 +35,15 @@ redirect_from:
         display: block;
       }
       .carousel-caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
         background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
         color: #fff; /* White text */
         padding: 10px; /* Add some padding */
-        width: 100%; /* Make the caption span the full width of the carousel */
-        bottom: 0; /* Position it at the bottom of the carousel */
-        left: 0;
-        text-align: left;
+        text-align: left; /* Center the text */
+        margin: 0;
       }
     </style>
   </head>
@@ -54,19 +59,19 @@ redirect_from:
         <div class="item active">
           <img src="../images/webb_seahorse.jpg" alt="JWST observation of the cosmic seahorse. Credit: ESA/Webb, NASA & CSA, J. Rigby" height="500px">
           <div class="carousel-caption">
-            JWST observation of the cosmic seahorse. Credit: ESA/Webb, NASA & CSA, J. Rigby
+            <p id="carousel-caption-text">JWST observation of the cosmic seahorse. Credit: ESA/Webb, NASA & CSA, J. Rigby</p>
           </div>
         </div>
         <div class="item">
           <img src="../images/kids_sky.jpg" alt="ESO Kilo-Degree Survey weak lensing data. Credit: ESO KiDS" height="500px">
           <div class="carousel-caption">
-            ESO Kilo-Degree Survey weak lensing data. Credit: ESO KiDS
+            <p id="carousel-caption-text">ESO Kilo-Degree Survey weak lensing data. Credit: ESO KiDS</p>
           </div>
         </div>
         <div class="item">
           <img src="../images/kids_sbi_results.jpg" alt="Latest cosmological constraints from SBI analysis of KiDS-1000." height="500px">
           <div class="carousel-caption">
-            Latest cosmological constraints from <a href="https://arxiv.org/abs/2404.15402"> SBI analysis of KiDS-1000</a>.
+            <p id="carousel-caption-text">Latest cosmological constraints from <a href="https://arxiv.org/abs/2404.15402"> SBI analysis of KiDS-1000</a>.</p>
           </div>
         </div>
         
@@ -81,6 +86,13 @@ redirect_from:
       </a>
     </div>
   </div>
+  <script>
+    // JavaScript to update the caption text based on the current image
+    $('#myCarousel').on('slide.bs.carousel', function (e) {
+      var altText = $(e.relatedTarget).find('img').attr('alt');
+      $('#carousel-caption-text').text(altText);
+    });
+  </script>
 </div>
 
 About me
