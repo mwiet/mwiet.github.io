@@ -11,7 +11,7 @@ redirect_from:
   <head>
     <title></title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=1">
+    <meta name="viewport" content="width=1000px, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -25,10 +25,10 @@ redirect_from:
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img src="../images/euclid_perseus.jpg" alt="ESA Euclid observation of Perseus cluster. Credit: ESA" style="width:60%;">
+          <img src="../images/euclid_perseus.jpg" alt="ESA Euclid observation of Perseus cluster. Credit: ESA" style="width:1000px;">
         </div>
         <div class="item">
-          <img src="../images/euclid_perseus.jpg" alt="ESA Euclid observation of Perseus cluster. Credit: ESA" style="width:60%;">
+          <img src="../images/euclid_perseus.jpg" alt="ESA Euclid observation of Perseus cluster. Credit: ESA" style="width:1000px;">
         </div>
       </div>
       <a class="left carousel-control" href="#myCarousel" data-slide="prev">
