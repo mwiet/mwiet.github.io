@@ -25,10 +25,10 @@ redirect_from:
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img src="../images/euclid_perseus.jpg" alt="ESA Euclid observation of Perseus cluster. Credit: ESA" style="width:50%;">
+          <img src="../images/euclid_perseus.jpg" alt="ESA Euclid observation of Perseus cluster. Credit: ESA" style="width:60%;">
         </div>
         <div class="item">
-          <img src="../images/euclid_perseus.jpg" alt="ESA Euclid observation of Perseus cluster. Credit: ESA" style="width:50%;">
+          <img src="../images/euclid_perseus.jpg" alt="ESA Euclid observation of Perseus cluster. Credit: ESA" style="width:60%;">
         </div>
       </div>
       <a class="left carousel-control" href="#myCarousel" data-slide="prev">
