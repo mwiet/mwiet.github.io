@@ -23,7 +23,7 @@ redirect_from:
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 500px;
+        height: 450px;
         position: relative;
       }
       .carousel-inner img {
@@ -33,6 +33,12 @@ redirect_from:
         width: auto;
         margin: 0 auto;
         display: block;
+      }
+      .carousel-inner .item {
+      display: flex;
+      align-items: center; /* Vertically center the images */
+      justify-content: center; /* Horizontally center the images */
+      height: 100%; /* Ensure the items take the full height of the carousel */
       }
       .carousel-caption {
         position: absolute;
