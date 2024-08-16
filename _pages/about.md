@@ -23,7 +23,7 @@ redirect_from:
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 500px;
+        height: 420px;
         position: relative;
       }
       .carousel-inner img {
