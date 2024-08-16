@@ -11,6 +11,7 @@ redirect_from:
   <head>
     <title></title>
     <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.3">
     <style scoped>
       @import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css');
     </style>
