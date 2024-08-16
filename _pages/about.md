@@ -43,7 +43,7 @@ redirect_from:
         width: 100%;
         background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
         color: #fff; /* White text */
-        padding: 20px; /* Add some padding */
+        padding: 25px; /* Add some padding */
         text-align: left; /* Center the text */
         margin: 0;
       }
