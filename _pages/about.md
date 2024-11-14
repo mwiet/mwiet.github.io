@@ -14,6 +14,7 @@ My research focuses on cosmology, understanding dark matter as well as its effec
 
 Understanding the formation and evolution of structure at the largest scales allows us to determine how gravity and dark matter act on the cosmology of the Universe. Simultaneously, studying substucture formation at the scale of galaxies probes the nature of dark matter at small scales. Therefore, we can test Einstein's theory of general relativity as well as the theory of cold dark matter.
 
+Here's an example of one of my recent talks:
 [![Talk: Simulation-Based Inference Analysis of KiDS](../images/video_thumbnail.png)](http://www.youtube.com/watch?v=Byihs5YaCMU "Simulation-Based Inference Analysis of KiDS")
 
 I am a member of the following collaborations:
