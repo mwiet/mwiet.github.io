@@ -19,9 +19,9 @@ Here's an example of one of my recent talks:
 
 I am a member of the following collaborations:
 
-[<img src="../images/Euclid_consortium_logo.png" width="160" />](https://www.euclid-ec.org/)
+[<img src="../images/Euclid_consortium_logo.png" width="180" />](https://www.euclid-ec.org/)
 [<img src="../images/Euclid_logo_pillars.png" width="100" />](https://www.cosmos.esa.int/web/euclid)
-[<img src="../images/COSMOSWeb_logo.png" width="160" />](https://cosmos.astro.caltech.edu/page/cosmosweb)
-[<img src="../images/KiDS_logo.jpg" width="160" />](https://kids.strw.leidenuniv.nl/)
-[<img src="../images/NewDM_SpectroScopic_logo.jpg" width="160" />](https://www.desi.lbl.gov/)
+[<img src="../images/COSMOSWeb_logo.png" width="180" />](https://cosmos.astro.caltech.edu/page/cosmosweb)
+[<img src="../images/KiDS_logo.jpg" width="180" />](https://kids.strw.leidenuniv.nl/)
+[<img src="../images/NewDM_SpectroScopic_logo.jpg" width="120" />](https://www.desi.lbl.gov/)
 
