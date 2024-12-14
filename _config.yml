@@ -234,7 +234,7 @@ defaults:
   # _teaching
   - scope:
       path: ""
-      type: teaching
+      type: talks
     values:
       author_profile: true
       share: true
