@@ -1,7 +1,4 @@
 {% include base_path %}
-
-{{ post | jsonify }}
-
 {% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
 {% else %}
