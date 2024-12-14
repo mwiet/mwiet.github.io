@@ -1,0 +1,34 @@
+{% include base_path %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <hr style="border: 0; border-top: 2px solid #ccc;">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <h2 class="archive__item-title" itemprop="headline">
+      {% if post.link %}
+        <a href="{{ post.link }}">{{ post.title }}</a> 
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">
+          <i class="fa fa-link" aria-hidden="true" title="permalink"></i>
+          <span class="sr-only">Permalink</span>
+        </a>
+      {% else %}
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+      {% endif %}
+    </h2>
+    {% if post.date %}
+      <p class="page__meta">
+        <i class="fa fa-clock-o" aria-hidden="true"></i> 
+        {{ post.date | date: '%B %d, %Y' }}
+      </p>
+    {% endif %}
+    {% if post.venue %}
+      <p class="archive__item-excerpt" itemprop="description">
+        {{ post.type }}, {{ post.venue }}, {{ post.location }}
+      </p>
+    {% endif %}
+    {% if post.excerpt %}
+      <p class="archive__item-excerpt" itemprop="description">
+        {{ post.excerpt | markdownify }}
+      </p>
+    {% endif %}
+  </article>
+</div>
