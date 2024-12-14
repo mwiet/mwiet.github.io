@@ -2,7 +2,7 @@
 title: "Tutorials for the "Mathematical Methods I" course"
 collection: teaching
 type: "Tutorial"
-permalink: /teaching/2020-09-01
+permalink: /teaching/2020-autumn-teaching-1.
 venue: "University College London, Department of Physics and Astronomy"
 date: 2020-09-01
 location: "London, UK"

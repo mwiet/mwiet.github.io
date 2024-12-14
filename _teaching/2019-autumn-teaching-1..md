@@ -2,7 +2,7 @@
 title: "Marking for the "Physical Cosmology" course"
 collection: teaching
 type: "Marking"
-permalink: /teaching/2019-09-01
+permalink: /teaching/2019-autumn-teaching-1
 venue: "University College London, Department of Physics and Astronomy"
 date: 2019-09-01
 location: "London, UK"

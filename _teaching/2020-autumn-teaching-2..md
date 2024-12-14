@@ -2,7 +2,7 @@
 title: "Tutorials for the "Atoms, Stars and the Universe" course"
 collection: teaching
 type: "Tutorial"
-permalink: /teaching/2020-09-05
+permalink: /teaching/2020-autumn-teaching-2
 venue: "University College London, Department of Physics and Astronomy"
 date: 2020-09-05
 location: "London, UK"

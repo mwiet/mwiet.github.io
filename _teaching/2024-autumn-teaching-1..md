@@ -2,7 +2,7 @@
 title: "Workshops for the "Theoretical Physics 2" course"
 collection: teaching
 type: "Tutorial"
-permalink: /teaching/22024-09-01
+permalink: /teaching/2024-autumn-teaching-1
 venue: "Durham University, Department of Physics"
 date: 2024-09-01
 location: "London, UK"
