@@ -236,6 +236,7 @@ defaults:
       path: ""
       type: talks
     values:
+      layout: talk
       author_profile: true
       share: true
   # _publications
