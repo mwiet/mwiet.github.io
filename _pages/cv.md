@@ -21,7 +21,7 @@ Education
 Research experience
 ======
 * Apr. 2024 - Now: Postdoctoral Research Associate
-  <ul>
+  <ul style="list-style: none;">
     <li><i class="fa fa-solid fa-building-columns" aria-hidden="true"></i>Institute for Computational Cosmology & Centre for Extragalactic Astronomy, Durham University (UK)</li>
     <li><i class="fa fa-solid fa-flask" aria-hidden="true"></i>Large scale structure, dark matter, dark energy, cosmological inference, simulation-based inference, strong and weak gravitational lensing observations, charge transfer inefficiency in the Euclid Space Telescope.</li>
   </ul>
