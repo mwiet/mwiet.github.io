@@ -22,7 +22,7 @@ Research experience
 ======
 * Apr. 2024 - Now: Postdoctoral Research Associate
   * Institute for Computational Cosmology & Centre for Extragalactic Astronomy, Durham University (UK)
-  * Large scale structure, dark matter, dark energy, cosmological inference, simulation-based inference, strong and weak gravitational lensing observations, charge transfer inefficiency in space telescopes.
+  * Large scale structure, dark matter, dark energy, cosmological inference, simulation-based inference, strong and weak gravitational lensing observations, charge transfer inefficiency in the Euclid Space Telescope.
 
 * Jun. 2023 - Apr. 2024: Postdoctoral Research Fellow
   * Cosmoparticle Initiative, University College London (UK)
@@ -50,7 +50,8 @@ Research experience
 
 Leadership roles
 ======
-* Apr. 2024-Now: Co-coordinator of charge-transfer inefficiency efforts in the Euclid consortium
+* Apr. 2024-Now: Co-coordinator of VIS instruement charge-transfer inefficiency calibration efforts in the Euclid consortium
+* Apr. 2024-Now: Organiser of 'Scraps of Science' (a fortnightly forum to share scientific problems and successes) - ICC, CEA and CfAI, Durham University
 * Jun. 2023-Now: Co-lead of variable depth modelling project in the Euclid consortium
 * Jan. 2021-Now: Coordinator for the Kilo-Degree Survey numerical covariance efforts
 * Jan. 2021-Now: Coordinator of the Kilo-Degree Survey simulation-based inference team
