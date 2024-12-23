@@ -27,28 +27,38 @@ Research experience
   </ul>
 
 * Jun. 2023 - Apr. 2024: Postdoctoral Research Fellow
-  * Cosmoparticle Initiative, University College London (UK)
-  * Development of forward models for large-scale structure measurements by the Euclid Space Telescope, and the Kilo-Degree Survey.
+  <ul style="list-style: none;">
+    <li><i class="fa fa-solid fa-building-columns" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Cosmoparticle Initiative, University College London (UK)</li>
+    <li><i class="fa fa-solid fa-flask" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Development of forward models for large-scale structure measurements by the Euclid Space Telescope, and the Kilo-Degree Survey.</li>
+  </ul>
 
 * Jun.-Aug. 2018: Research Intern
-  * ICIC, Astrophysics Group, Department of Physics, Imperial College London (UK)
-  * Development of a novel Bayesian method together with to analyse spectra of gamma rays detected by the Fermi LAT.
-  * Advisers: Dr Alex Geringer-Sameth, Prof. Roberto Trotta
+  <ul style="list-style: none;">
+    <li><i class="fa fa-solid fa-building-columns" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;ICIC, Astrophysics Group, Department of Physics, Imperial College London (UK)</li>
+    <li><i class="fa fa-solid fa-flask" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Development of a novel Bayesian method together with to analyse spectra of gamma rays detected by the Fermi LAT.</li>
+    <li><i class="fa fa-solid fa-user-group" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Advisers: Dr Alex Geringer-Sameth, Prof. Roberto Trotta</li>
+  </ul>
 
 * Jun.-Aug. 2017: Research Intern
-  * ICIC, Astrophysics Group, Department of Physics, Imperial College London (UK)
-  * Development of an outreach map containing the location in space of most objects ever discovered from the low Earth orbit to the edge of the observable.
-  * Adviser: Prof. Roberto Trotta
+  <ul style="list-style: none;">
+    <li><i class="fa fa-solid fa-building-columns" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;ICIC, Astrophysics Group, Department of Physics, Imperial College London (UK)</li>
+    <li><i class="fa fa-solid fa-flask" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Development of an outreach map containing the location in space of most objects ever discovered from the low Earth orbit to the edge of the observable.</li>
+    <li><i class="fa fa-solid fa-user-group" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Adviser: Prof. Roberto Trotta</li>
+  </ul>
 
 * Jul. 2015: Research Intern
-  * Instituto de Astrofísica de las Canarias, IAC (Spain)
-  * Observation nights on the Teide (Tenerife) with the IAC-80 telescope.
-  * Advisers: Dr Miquel Serra-Ricart, Juan Carlos Casado
+  <ul style="list-style: none;">
+    <li><i class="fa fa-solid fa-building-columns" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Instituto de Astrofísica de las Canarias, IAC (Spain)</li>
+    <li><i class="fa fa-solid fa-flask" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Observation nights on the Teide (Tenerife) with the IAC-80 telescope.</li>
+    <li><i class="fa fa-solid fa-user-group" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Advisers: Dr Miquel Serra-Ricart, Juan Carlos Casado</li>
+  </ul>
  
 * Jul. 2014: Research Intern
-  * Centro de Astrofisica da Universidade do Porto, CAUP (Portugal)
-  * Computational analysis of supernovae and Hubble parameter data.
-  * Adviser: Dr Carlos Martins
+  <ul style="list-style: none;">
+    <li><i class="fa fa-solid fa-building-columns" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Centro de Astrofisica da Universidade do Porto, CAUP (Portugal)</li>
+    <li><i class="fa fa-solid fa-flask" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Computational analysis of supernovae and Hubble parameter data.</li>
+    <li><i class="fa fa-solid fa-user-group" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Adviser: Dr Carlos Martins</li>
+  </ul>
 
 Leadership roles
 ======
