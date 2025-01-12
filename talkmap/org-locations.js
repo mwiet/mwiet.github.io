@@ -26,8 +26,8 @@ var addressPoints = [
   ],
   [
     "Institut d'Astrophysique de Paris, Sorbonne Universit\u00e9, Paris, France",
-    48.8534951,
-    2.3483915
+    48.8588897,
+    2.3200410217200766
   ],
   [
     "CosmoVerse, Jagiellonian University in Krakow, Krakow, Poland",
@@ -45,6 +45,11 @@ var addressPoints = [
     -0.14405508452768728
   ],
   [
+    "Durham University, Durham, UK",
+    54.666667,
+    -1.75
+  ],
+  [
     "Institute for Astronomy, University of Edinburgh, Edinburgh, United Kingdom",
     55.9533456,
     -3.1883749
@@ -60,9 +65,9 @@ var addressPoints = [
     -0.14405508452768728
   ],
   [
-    "\u00c9cole Normale Sup\u00e9rieure, Paris, France",
-    48.8534951,
-    2.3483915
+    "LFI in Paris, \u00c9cole Normale Sup\u00e9rieure, Paris, France",
+    48.8588897,
+    2.3200410217200766
   ],
   [
     "KiDS Meeting, National Centre for Nuclear Research, Warsaw, Poland",
@@ -80,13 +85,18 @@ var addressPoints = [
     -0.14405508452768728
   ],
   [
+    "Newcastle University, Newcastle, UK",
+    54.9738474,
+    -1.6131572
+  ],
+  [
     "Cosmology and Relativity Group, Queen Mary University of London, London, United Kingdom",
     51.4893335,
     -0.14405508452768728
   ],
   [
     "KiDS Meeting, E.A. Milne Centre, University of Hull, Hull, United Kingdom",
-    53.7435722,
-    -0.3394758
+    53.76238625,
+    -0.3301213755327681
   ]
 ];
