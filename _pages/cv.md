@@ -62,7 +62,7 @@ Research experience
 
 Leadership roles
 ======
-* Apr. 2024-Now:  **Coordinator of the VIS charge-transfer inefficiency effortsv**
+* Apr. 2024-Now:  **Coordinator of the VIS charge-transfer inefficiency efforts**
 	<ul style="list-style: none;">
     <li><i class="fa fa-solid fa-people-group" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Euclid consortium</li>
     <li><i class="fa fa-solid fa-circle-info" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Execution and reporting of CTI calibration effort within OU-VIS.</li>
