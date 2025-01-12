@@ -45,11 +45,6 @@ var addressPoints = [
     -0.14405508452768728
   ],
   [
-    "Durham University, Durham, UK",
-    54.666667,
-    -1.75
-  ],
-  [
     "Institute for Astronomy, University of Edinburgh, Edinburgh, United Kingdom",
     55.9533456,
     -3.1883749
@@ -85,7 +80,7 @@ var addressPoints = [
     -0.14405508452768728
   ],
   [
-    "Newcastle University, Newcastle, UK",
+    "Newcastle University, Newcastle, United Kingdom",
     54.9738474,
     -1.6131572
   ],
