@@ -62,28 +62,70 @@ Research experience
 
 Leadership roles
 ======
-* Apr. 2024-Now: Co-coordinator of VIS instrument charge-transfer inefficiency calibration efforts in the Euclid consortium
-* Apr. 2024-Now: Organiser of 'Scraps of Science' (a fortnightly forum to share scientific problems and successes) - ICC, CEA and CfAI, Durham University
-* Jun. 2023-Now: Co-lead of variable depth modelling project in the Euclid consortium
-* Jan. 2021-Now: Coordinator for the Kilo-Degree Survey numerical covariance efforts
-* Jan. 2021-Now: Coordinator of the Kilo-Degree Survey simulation-based inference team
-* May 2023: Co-organiser and chair of a week-long Kilo-Degree Survey’s consortium meeting at the UCL Observatory
-* Sep. 2021- Jun. 2022: Co-organiser of the cosmology journal club - University College London (UK)
-  * Organisation and moderation of the weekly cosmology journal club at UCL.
-  * Development and implementation of the “hybrid” format which combined remote and in-person attendance.
-* Jan. - Jun.2021: Organiser of the astrophysics lunch talks - University College London (UK)
-  * Organisation and moderation of the twice-per-term talks by internal and external speakers.
-* Mar. 2020: Organiser of an outreach stand on dark matter - Your Universe: UCL Festival (UK)
-  * Creation of outreach posters on gravitational lensing and dark matter.
-  * Presentation of short talks to primary and secondary school students over 3 days
+* Apr. 2024-Now:  Coordinator of the VIS charge-transfer inefficiency efforts
+	<ul style="list-style: none;">
+    <li><i class="fa fa-solid fa-people-group" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Euclid consortium</li>
+    <li><i class="fa fa-solid fa-circle-info" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Execution and reporting of CTI calibration effort within OU-VIS.</li>
+  </ul>
+* 2024-Now:	  Kilo-Degree Survey builder status
+	<ul style="list-style: none;">
+    <li><i class="fa fa-solid fa-people-group" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;KiDS consortium</li>
+  </ul>
+* Jun. 2023-Now:  Coordinator of variable depth modelling project
+	<ul style="list-style: none;">
+    <li><i class="fa fa-solid fa-people-group" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Euclid consortium</li>
+    <li><i class="fa fa-solid fa-circle-info" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Execution and reporting of variable depth standard project within SGS LE3.</li>
+  </ul>
+* Jan. 2021-Now:  Coordinator simulation-based inference & forward modelling team
+	<ul style="list-style: none;">
+    <li><i class="fa fa-solid fa-people-group" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;KiDS consortium</li>
+    <li><i class="fa fa-solid fa-circle-info" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Execution and reporting of SBI and simulations for KiDS-1000 and Legacy.</li>
+  </ul>
+
+
+Professional service
+======
+* Oct. 2024-Now:  Founder & organiser of ‘Scraps of Science’ sessions
+  <ul style="list-style: none;">
+    <li><i class="fa fa-solid fa-building-columns" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Durham University (UK)</li>
+	  <li><i class="fa-solid fa-circle-info" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Fortnightly session where all members of the astronomy group discuss current research.</li>
+  </ul>
+* Oct. 2024-Now:	Organiser of ‘Lensing Lunch’ sessions
+  <ul style="list-style: none;">
+    <li><i class="fa fa-solid fa-building-columns" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Durham University (UK)</li>
+	  <li><i class="fa-solid fa-circle-info" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Fortnightly session to discuss and present gravitational lensing-related research.</li>
+  </ul>
+* 2023-2024:	Journal referee, Monthly Notices to the Royal Astronomical Society and the Open Journal of Astrophysics
+  <ul style="list-style: none;">
+    <li><i class="fa-solid fa-circle-info" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Referee for papers submitted to MNRAS and OJA.</li>
+  </ul>
+* May 2023:	Organiser & chair of a conference for KiDS consortium
+  <ul style="list-style: none;">
+    <li><i class="fa fa-solid fa-building-columns" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;UCL Observatory (UK)</li>
+	  <li><i class="fa-solid fa-circle-info" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Organisation of a week-long KiDS consortium meeting and social activities.</li>
+  </ul>
+* Sep. 2021 - Jun. 2022:  Organiser of the cosmology journal club
+  <ul style="list-style: none;">
+    <li><i class="fa fa-solid fa-building-columns" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;University College London (UK)</li>
+	  <li><i class="fa-solid fa-circle-info" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Weekly cosmology journal club at UCL. Development and implementation of the “hybrid” format which combined remote and in-person attendance.</li>
+  </ul>
+* Jan. - Jun. 2021: Organiser of the astrophysics lunch talks - University College London (UK)
+  <ul style="list-style: none;">
+    <li><i class="fa fa-solid fa-building-columns" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;University College London (UK)</li>
+	  <li><i class="fa-solid fa-circle-info" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Organisation and moderation of the twice-per-term talks by internal and external speakers.</li>
+  </ul>
+
   
 Skills
 ======
 * Proficient in, and comprehensive understanding of Python
+* Proficient understanding of Python scientific packages such as numpy, scipy, pandas, and matplotlib
 * Experienced in C++, bash, Mathematica and LaTeX
 * Familiar with SQL, R and HTML
+*	Experienced in the use, deployment and development of machine learning algorithms/AI
 * Implementation of parallel processes through MPI, OpenMP and multiprocessing
 * Collaborative coding and version management through git
+* Experienced in high-performance computing and cluster management
 * Proficient in reading, writing, speaking and listening of English, German, Spanish and Catalan
 
 Publications
