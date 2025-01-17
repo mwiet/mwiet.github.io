@@ -85,7 +85,7 @@ Leadership roles
 
 Professional service
 ======
-* Oct. 2024-Now:  **Founder & organiser of ‘Scraps of Science’ sessions**
+* Oct. 2024-Now:  **Creator & organiser of ‘Scraps of Science’ sessions**
   <ul style="list-style: none;">
     <li><i class="fa fa-solid fa-building-columns" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Durham University (UK)</li>
 	  <li><i class="fa-solid fa-circle-info" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Fortnightly session where all members of the astronomy group discuss current research.</li>
