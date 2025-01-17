@@ -83,7 +83,7 @@ Leadership roles
   </ul>
 
 
-Professional service
+Professional experience
 ======
 * Oct. 2024-Now:  **Creator & organiser of ‘Scraps of Science’ sessions**
   <ul style="list-style: none;">
