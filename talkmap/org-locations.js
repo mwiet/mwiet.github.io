@@ -26,13 +26,18 @@ var addressPoints = [
   ],
   [
     "Institut d'Astrophysique de Paris, Sorbonne Universit\u00e9, Paris, France",
-    48.8588897,
-    2.3200410217200766
+    48.8534951,
+    2.3483915
   ],
   [
     "CosmoVerse, Jagiellonian University in Krakow, Krakow, Poland",
     50.0469432,
     19.997153435836697
+  ],
+  [
+    "Leiden Observatory, Leiden, Netherlands",
+    52.1594747,
+    4.4908843
   ],
   [
     "COSMO21, Chania, Greece",
@@ -61,8 +66,8 @@ var addressPoints = [
   ],
   [
     "LFI in Paris, \u00c9cole Normale Sup\u00e9rieure, Paris, France",
-    48.8588897,
-    2.3200410217200766
+    48.8534951,
+    2.3483915
   ],
   [
     "KiDS Meeting, National Centre for Nuclear Research, Warsaw, Poland",
