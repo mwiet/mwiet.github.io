@@ -16,8 +16,8 @@ var addressPoints = [
   ],
   [
     "Challenging the standard cosmological model, Royal Society, London, United Kingdom",
-    51.4893335,
-    -0.14405508452768728
+    51.5074456,
+    -0.1277653
   ],
   [
     "Durham University, Durham, United Kingdom",
@@ -31,11 +31,11 @@ var addressPoints = [
   ],
   [
     "CosmoVerse, Jagiellonian University in Krakow, Krakow, Poland",
-    50.0469432,
-    19.997153435836697
+    50.0619474,
+    19.9368564
   ],
   [
-    "Leiden Observatory, Leiden, Netherlands",
+    "Euclid Consortium Meeting, Leiden, Netherlands",
     52.1594747,
     4.4908843
   ],
@@ -46,8 +46,8 @@ var addressPoints = [
   ],
   [
     "Cosmoparticle Initiative, University College London, London, United Kingdom",
-    51.4893335,
-    -0.14405508452768728
+    51.5074456,
+    -0.1277653
   ],
   [
     "Institute for Astronomy, University of Edinburgh, Edinburgh, United Kingdom",
@@ -61,8 +61,8 @@ var addressPoints = [
   ],
   [
     "UK Cosmology Meeting/Ruth Fest, King's College London, London, United Kingdom",
-    51.4893335,
-    -0.14405508452768728
+    51.5074456,
+    -0.1277653
   ],
   [
     "LFI in Paris, \u00c9cole Normale Sup\u00e9rieure, Paris, France",
@@ -76,13 +76,13 @@ var addressPoints = [
   ],
   [
     "ICIC, Imperial College London, London, United Kingdom",
-    51.4893335,
-    -0.14405508452768728
+    51.5074456,
+    -0.1277653
   ],
   [
     "Euclid UK Meeting, Royal Astronomical Society, London, United Kingdom",
-    51.4893335,
-    -0.14405508452768728
+    51.5074456,
+    -0.1277653
   ],
   [
     "Newcastle University, Newcastle, United Kingdom",
@@ -91,8 +91,13 @@ var addressPoints = [
   ],
   [
     "Cosmology and Relativity Group, Queen Mary University of London, London, United Kingdom",
-    51.4893335,
-    -0.14405508452768728
+    51.5074456,
+    -0.1277653
+  ],
+  [
+    "University of Hong Kong, Hong Kong, China",
+    22.350627,
+    114.1849161
   ],
   [
     "KiDS Meeting, E.A. Milne Centre, University of Hull, Hull, United Kingdom",
