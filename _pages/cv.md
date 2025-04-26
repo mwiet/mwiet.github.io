@@ -85,15 +85,15 @@ Leadership roles
 
 Professional experience
 ======
-* Jan. 2025-Now:  **Chair of the SOC of gravtiational lensing National Astronomy Meeting session**
-  <ul style="list-style: none;">
-    <li><i class="fa fa-solid fa-building-columns" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Durham University (UK)</li>
-	  <li><i class="fa-solid fa-circle-info" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Organisation of scientific content of the <a href="https://conference.astro.dur.ac.uk/event/7/program">"The Golden Era of Gravitational Lensing: from Micro to Macro"</a> NAM session which covers three 1.5-hour blocks.</li>
-  </ul>
 * Dec. 2024-Now:  **Co-chair of the SOC & LOC for the ASTRODAT workshop**
   <ul style="list-style: none;">
     <li><i class="fa fa-solid fa-building-columns" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Durham University (UK)</li>
 	  <li><i class="fa-solid fa-circle-info" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Organisation of logistics and scientific content of the <a href="https://bronreichardtchu.github.io/ASTRODAT">ASTRODAT workshop on coding and astrostatistics for early-career researchers hosted at Durham University in September 2025.</a></li>
+  </ul>
+* Jul. 2025-Now:  **Chair of the SOC of gravtiational lensing National Astronomy Meeting session**
+  <ul style="list-style: none;">
+    <li><i class="fa fa-solid fa-building-columns" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Durham University (UK)</li>
+	  <li><i class="fa-solid fa-circle-info" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Organisation of scientific content of the <a href="https://conference.astro.dur.ac.uk/event/7/program">"The Golden Era of Gravitational Lensing: from Micro to Macro"</a> NAM session which covers three 1.5-hour blocks.</li>
   </ul>
 * Oct. 2024-Now:  **Creator & organiser of ‘Scraps of Science’ sessions**
   <ul style="list-style: none;">
