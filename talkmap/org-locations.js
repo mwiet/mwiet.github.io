@@ -16,8 +16,8 @@ var addressPoints = [
   ],
   [
     "Challenging the standard cosmological model, Royal Society, London, United Kingdom",
-    51.5074456,
-    -0.1277653
+    51.4893335,
+    -0.1440551
   ],
   [
     "Durham University, Durham, United Kingdom",
@@ -31,8 +31,13 @@ var addressPoints = [
   ],
   [
     "CosmoVerse, Jagiellonian University in Krakow, Krakow, Poland",
-    50.0619474,
-    19.9368564
+    50.0469432,
+    19.9971534
+  ],
+  [
+    "Open University, Milton Keynes, United Kingdom",
+    52.0406502,
+    -0.7594092
   ],
   [
     "Euclid Consortium Meeting, Leiden, Netherlands",
@@ -46,8 +51,8 @@ var addressPoints = [
   ],
   [
     "Cosmoparticle Initiative, University College London, London, United Kingdom",
-    51.5074456,
-    -0.1277653
+    51.4893335,
+    -0.1440551
   ],
   [
     "Institute for Astronomy, University of Edinburgh, Edinburgh, United Kingdom",
@@ -61,8 +66,13 @@ var addressPoints = [
   ],
   [
     "UK Cosmology Meeting/Ruth Fest, King's College London, London, United Kingdom",
-    51.5074456,
-    -0.1277653
+    51.4893335,
+    -0.1440551
+  ],
+  [
+    "Max Planck Institute for Astrophysics, Garching, Germany",
+    48.2513878,
+    11.6509662
   ],
   [
     "LFI in Paris, \u00c9cole Normale Sup\u00e9rieure, Paris, France",
@@ -72,17 +82,17 @@ var addressPoints = [
   [
     "KiDS Meeting, National Centre for Nuclear Research, Warsaw, Poland",
     52.2337172,
-    21.071432235636493
+    21.0714322
   ],
   [
     "ICIC, Imperial College London, London, United Kingdom",
-    51.5074456,
-    -0.1277653
+    51.4893335,
+    -0.1440551
   ],
   [
     "Euclid UK Meeting, Royal Astronomical Society, London, United Kingdom",
-    51.5074456,
-    -0.1277653
+    51.4893335,
+    -0.1440551
   ],
   [
     "Newcastle University, Newcastle, United Kingdom",
@@ -91,8 +101,8 @@ var addressPoints = [
   ],
   [
     "Cosmology and Relativity Group, Queen Mary University of London, London, United Kingdom",
-    51.5074456,
-    -0.1277653
+    51.4893335,
+    -0.1440551
   ],
   [
     "University of Hong Kong, Hong Kong, China",
@@ -101,7 +111,7 @@ var addressPoints = [
   ],
   [
     "KiDS Meeting, E.A. Milne Centre, University of Hull, Hull, United Kingdom",
-    53.76238625,
-    -0.3301213755327681
+    53.7623862,
+    -0.3301214
   ]
 ];
