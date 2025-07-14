@@ -105,6 +105,10 @@ Professional experience
     <li><i class="fa fa-solid fa-building-columns" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Durham University (UK)</li>
 	  <li><i class="fa-solid fa-circle-info" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Fortnightly session to discuss and present gravitational lensing-related research.</li>
   </ul>
+* 2023-2025:	**Chair of conference talks**: National Astronomy Meeting 2025, Euclid UK Meeting 2024, Kilo-Degree Survey Meeting 2021
+  <ul style="list-style: none;">
+    <li><i class="fa-solid fa-circle-info" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Chairing for contributed talks.</li>
+  </ul>
 * 2023-2025:	**Journal referee**, Monthly Notices to the Royal Astronomical Society and the Open Journal of Astrophysics
   <ul style="list-style: none;">
     <li><i class="fa-solid fa-circle-info" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Referee for papers submitted to MNRAS and OJA.</li>
