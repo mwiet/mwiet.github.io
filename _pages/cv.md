@@ -15,7 +15,7 @@ Education
 ======
 * Ph.D. in Physics and Astronomy, University College London, 2023
   * Full thesis available in the [UCL library](https://discovery.ucl.ac.uk/id/eprint/10185306/) or as a [PDF](../files/von-Wietersheim-Kramsta-PhD_e-Thesis.pdf).
-  * Astronomy Genealogy Project's AstroGen tree [here](https://astrogen.aas.org/front/searchdetails.php?agnumber=73684).
+  * See my [Mathematics Genealogy Project](https://mathgenealogy.org/) tree generated with [geneagrapher](https://github.com/davidalber/geneagrapher) [here](../files/gentree.png), or see Astronomy Genealogy Project's AstroGen tree [here](https://astrogen.aas.org/front/searchdetails.php?agnumber=73684).
 * MSci in Physics, Imperial College London, 2019
 
 Research experience
