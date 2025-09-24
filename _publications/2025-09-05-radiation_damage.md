@@ -1,5 +1,5 @@
 ---
-title: "Not so dark, not so dense: an alternative explanation for the lensing subhalo in SDSSJ0946+1006"
+title: "Radiation damage to the Hubble Space Telescope during two Solar cycles, and correction of Charge Transfer Inefficiency"
 collection: publications
 permalink: /publication/2025-09-06-not_so_dark_dot
 excerpt: ''
