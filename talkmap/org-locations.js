@@ -1,5 +1,10 @@
 var addressPoints = [
   [
+    "Valencia Workshop on the S.S.S. & SIDM, IFIC - CSIC & Universitat de Val\u00e8ncia, Valencia, Spain",
+    39.4697065,
+    -0.3763353
+  ],
+  [
     "KiDS Meeting, German Centre for Cosmological Lensing, Ruhr-Universit\u00e4t Bochum, Bochum, Germany",
     51.4818111,
     7.2196635
@@ -16,8 +21,13 @@ var addressPoints = [
   ],
   [
     "Challenging the standard cosmological model, Royal Society, London, United Kingdom",
-    51.4893335,
-    -0.1440551
+    51.5074456,
+    -0.1277653
+  ],
+  [
+    "Beyond 2pt Statistics Meet Survey Systematics, Kavli IPMU, Tokyo, Japan",
+    35.6768601,
+    139.7638947
   ],
   [
     "Durham University, Durham, United Kingdom",
@@ -31,8 +41,8 @@ var addressPoints = [
   ],
   [
     "CosmoVerse, Jagiellonian University in Krakow, Krakow, Poland",
-    50.0469432,
-    19.9971534
+    50.0619474,
+    19.9368564
   ],
   [
     "Open University, Milton Keynes, United Kingdom",
@@ -41,8 +51,8 @@ var addressPoints = [
   ],
   [
     "Euclid Consortium Meeting, Leiden, Netherlands",
-    52.1594747,
-    4.4908843
+    52.1518157,
+    4.4811089
   ],
   [
     "COSMO21, Chania, Greece",
@@ -51,8 +61,13 @@ var addressPoints = [
   ],
   [
     "Cosmoparticle Initiative, University College London, London, United Kingdom",
-    51.4893335,
-    -0.1440551
+    51.5074456,
+    -0.1277653
+  ],
+  [
+    "ASTRODAT, Durham University, Durham, United Kingdom",
+    54.666667,
+    -1.75
   ],
   [
     "Institute for Astronomy, University of Edinburgh, Edinburgh, United Kingdom",
@@ -65,9 +80,14 @@ var addressPoints = [
     12.4829321
   ],
   [
+    "National Astronomy Meeting (NAM), Durham University, Durham, United Kingdom",
+    54.666667,
+    -1.75
+  ],
+  [
     "UK Cosmology Meeting/Ruth Fest, King's College London, London, United Kingdom",
-    51.4893335,
-    -0.1440551
+    51.5074456,
+    -0.1277653
   ],
   [
     "Max Planck Institute for Astrophysics, Garching, Germany",
@@ -81,18 +101,18 @@ var addressPoints = [
   ],
   [
     "KiDS Meeting, National Centre for Nuclear Research, Warsaw, Poland",
-    52.2337172,
-    21.0714322
+    52.2333742,
+    21.0711489
   ],
   [
     "ICIC, Imperial College London, London, United Kingdom",
-    51.4893335,
-    -0.1440551
+    51.5074456,
+    -0.1277653
   ],
   [
     "Euclid UK Meeting, Royal Astronomical Society, London, United Kingdom",
-    51.4893335,
-    -0.1440551
+    51.5074456,
+    -0.1277653
   ],
   [
     "Newcastle University, Newcastle, United Kingdom",
@@ -101,8 +121,8 @@ var addressPoints = [
   ],
   [
     "Cosmology and Relativity Group, Queen Mary University of London, London, United Kingdom",
-    51.4893335,
-    -0.1440551
+    51.5074456,
+    -0.1277653
   ],
   [
     "University of Hong Kong, Hong Kong, China",
