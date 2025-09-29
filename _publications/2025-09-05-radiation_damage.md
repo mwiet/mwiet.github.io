@@ -1,10 +1,10 @@
 ---
 title: "Radiation damage to the Hubble Space Telescope during two Solar cycles, and correction of Charge Transfer Inefficiency"
 collection: publications
-permalink: /publication/2025-09-06-not_so_dark_dot
+permalink: /publication/2025-09-05-radiation_damage
 excerpt: ''
-date: 2025-09-06
+date: 2025-09-05
 venue: 'Submitted to MNRAS'
-paperurl: 'https://doi.org/10.48550/arXiv.2506.07978'
-citation: 'He, Q., Robertson, A., Nightingale, J. W., Amvrosiadis, A., Cole, S., Frenk, C. S., ... & von Wietersheim-Kramsta, M. (2025). Not so dark, not so dense: an alternative explanation for the lensing subhalo in SDSSJ0946+ 1006. arXiv preprint arXiv:2506.07978.'
+paperurl: 'https://doi.org/10.48550/arXiv.2509.05057'
+citation: 'Massey, R., Kegerreis, J. A., Barrios, J. P. L. G., Nightingale, J. W., Hayes, R. G., Lagattuta, D., ... & von Wietersheim-Kramsta, M. (2025). Radiation damage to the Hubble Space Telescope during two Solar cycles, and correction of Charge Transfer Inefficiency. arXiv preprint arXiv:2509.05057.'
 ---
