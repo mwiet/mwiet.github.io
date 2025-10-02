@@ -54,7 +54,7 @@ for file in g:
                 popup_html = f'<a href="/talks/#{talk_id}" target="_top">{link_text}</a>'
                 
                 # Create a unique key for each talk
-                new_key = f"{popup_html}<br>{venue}, {location}"
+                new_key = f"{popup_html}<br>{location}"
                 
                 output_dict[new_key] = geo_location
             else:
