@@ -237,9 +237,9 @@ defaults:
   # _teaching
   - scope:
       path: ""
-      type: talks
+      type: teaching
     values:
-      layout: talk
+      layout: single
       author_profile: true
       share: true
   # _publications
