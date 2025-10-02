@@ -108,12 +108,12 @@
 
   .archive__item {
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
   }
 
   .archive__item-teaser {
-    flex: 0 0 200px; /* Adjust size as needed */
-    margin-right: 1em;
+    width: 100%;
+    margin-bottom: 1em;
   }
 }
 
