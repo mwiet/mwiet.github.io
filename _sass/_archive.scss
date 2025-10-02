@@ -105,6 +105,16 @@
   .page__meta {
     margin: 0 0 4px;
   }
+
+  .archive__item {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .archive__item-teaser {
+    flex: 0 0 200px; /* Adjust size as needed */
+    margin-right: 1em;
+  }
 }
 
 
