@@ -258,8 +258,8 @@
    Talks page PDF viewer
    ========================================================================== */
 
-.talk-item {
-  display: flex;
+.list__item .talk-item {
+  flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
 }
