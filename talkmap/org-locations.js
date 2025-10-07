@@ -40,9 +40,14 @@ var addressPoints = [
     2.3483915
   ],
   [
+    "<a href=\"/talks/#2025-10-03\" target=\"_top\">Oskar Klein Centre, Stockholm University</a><br>Stockholm, Sweden",
+    59.3251172,
+    18.0710935
+  ],
+  [
     "<a href=\"/talks/#2024-07-10\" target=\"_top\">CosmoVerse, Jagiellonian University in Krakow</a><br>Krakow, Poland",
-    50.0469432,
-    19.9971534
+    50.0619474,
+    19.9368564
   ],
   [
     "<a href=\"/talks/#2025-05-14\" target=\"_top\">Open University</a><br>Milton Keynes, United Kingdom",
@@ -51,8 +56,8 @@ var addressPoints = [
   ],
   [
     "<a href=\"/talks/#2025-03-25\" target=\"_top\">Euclid Consortium Meeting</a><br>Leiden, Netherlands",
-    52.1518157,
-    4.4811089
+    52.1594747,
+    4.4908843
   ],
   [
     "<a href=\"/talks/#2024-05-21\" target=\"_top\">COSMO21</a><br>Chania, Greece",
@@ -78,6 +83,11 @@ var addressPoints = [
     "<a href=\"/talks/#2024-10-16\" target=\"_top\">Institut d'Astrophysique de Paris, Sorbonne Universit\u00e9</a><br>Paris, France",
     48.8534951,
     2.3483915
+  ],
+  [
+    "<a href=\"/talks/#2025-10-01\" target=\"_top\">Oskar Klein Centre, Stockholm University</a><br>Stockholm, Sweden",
+    59.3251172,
+    18.0710935
   ],
   [
     "<a href=\"/talks/#2025-09-11\" target=\"_top\">ASTRODAT, Durham University</a><br>Durham, United Kingdom",
@@ -131,8 +141,8 @@ var addressPoints = [
   ],
   [
     "<a href=\"/talks/#2025-03-26\" target=\"_top\">Euclid Consortium Meeting</a><br>Leiden, Netherlands",
-    52.1518157,
-    4.4811089
+    52.1594747,
+    4.4908843
   ],
   [
     "<a href=\"/talks/#2022-05-18\" target=\"_top\">KiDS Meeting, National Centre for Nuclear Research</a><br>Warsaw, Poland",
