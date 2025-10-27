@@ -71,11 +71,6 @@ Leadership roles
 	<ul style="list-style: none;">
     <li><i class="fa fa-solid fa-people-group" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;KiDS consortium</li>
   </ul>
-* Jun. 2023-Now:  **Coordinator of variable depth modelling project**
-	<ul style="list-style: none;">
-    <li><i class="fa fa-solid fa-people-group" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Euclid consortium</li>
-    <li><i class="fa fa-solid fa-circle-info" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Execution and reporting of variable depth standard project within SGS LE3.</li>
-  </ul>
 * Jan. 2021-Now:  **Coordinator simulation-based inference & forward modelling team**
 	<ul style="list-style: none;">
     <li><i class="fa fa-solid fa-people-group" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;KiDS consortium</li>
