@@ -21,7 +21,7 @@ repository               : "mwiet/mwiet.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile_zoom.jpg"
+  avatar           : "profile_zoom.png"
   name             : "Maximilian von Wietersheim-Kramsta"
   pronouns         : # example: "she/her"  
   bio              : "Postdoctoral researcher within the Institute for Computational Cosmology (ICC) and the Centre for Extragalactic Astronomy (CEA) at Durham University since April 2024."
