@@ -6,13 +6,17 @@ redirect_from:
   - /about/
   - /about.html
 ---
+How did we get here? A very brief history of dark matter
+==============
+
+<img src="../images/brief_history.png" width="720" alt="Timeline of observational evidence of dark matter and future outlooks"/>
 
 About me
 ==============
 
-My research focuses on cosmology, understanding dark matter as well as its effect on the formation of large-scale and small-scale structure. I am interested in modelling the observable effects such as strong gravitational lensing, weak gravitational lensing, and galaxy clustering. To this end, I develop simulations of LSS, galaxy clusters, galaxies as well as simulation-based inference pipelines with future galaxy surveys such as Euclid and the Kilo-Degree Survey in mind, together with other various projects.
+My research centres around understanding the Universe as a whole at the largest possible scales. I aim to uncover what the Universe is really made of by mapping its vast cosmic web and teasing out the hidden influence of dark matter and dark energy on billions of galaxies. By turning huge sky surveys and space-telescope images from the ESA Euclid and the James Webb space telescopes into tracers of how the scaffolding of the cosmos grows and bends light, I build the rigorous groundwork needed to test whether our current picture of the Universe and gravity is truly right or if something fundamental is still missing.
 
-Understanding the formation and evolution of structure at the largest scales allows us to determine how gravity and dark matter act on the cosmology of the Universe. Simultaneously, studying substucture formation at the scale of galaxies probes the nature of dark matter at small scales. Therefore, we can test Einstein's theory of general relativity as well as the theory of cold dark matter.
+Specifically, I am interested in dark matter and its effect on the formation of large-scale and small-scale structure around galaxies. I am interested in modelling the observable effects such as strong gravitational lensing, weak gravitational lensing, and galaxy clustering. To this end, I develop simulations as well as Bayesian simulation-based inference pipelines with galaxy surveys such as Euclid, COSMOS-Web, and the Kilo-Degree Survey in mind, together with other various projects.
 
 To learn more about my work, here is my [recent review of simulation-based inference in cosmology and astrophysics](../files/2025-05-25_sbi-intro_sbi-galev_maximilian_von_wietersheim-kramsta.pdf).
 
