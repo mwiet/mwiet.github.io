@@ -72,6 +72,11 @@
   img {
     width: 100%;
   }
+  video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
 }
 
 .archive__item:hover {

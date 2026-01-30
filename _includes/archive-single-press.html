@@ -17,13 +17,34 @@
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if teaser %}
       <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+        {% assign video_extensions = "mp4,webm,ogg,mov" | split: "," %}
+        {% assign is_video = false %}
+        {% for ext in video_extensions %}
+          {% if teaser contains ext %}
+            {% assign is_video = true %}
           {% endif %}
-          alt="">
+        {% endfor %}
+        
+        {% if is_video %}
+          <video autoplay loop muted playsinline>
+            <source src=
+              {% if teaser contains "://" %}
+                "{{ teaser }}"
+              {% else %}
+                "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+              {% endif %}
+              type="video/{% if teaser contains '.webm' %}webm{% elsif teaser contains '.ogg' %}ogg{% else %}mp4{% endif %}">
+            Your browser does not support the video tag.
+          </video>
+        {% else %}
+          <img src=
+            {% if teaser contains "://" %}
+              "{{ teaser }}"
+            {% else %}
+              "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+            {% endif %}
+            alt="">
+        {% endif %}
       </div>
     {% endif %}
 
