@@ -22,7 +22,7 @@ Dark matter is essentially invisble. To find it, we must look for its effects on
   <source src="../files/GravLens_H2641080p.mov" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-
+<p style="font-size: 0.9em; margin-top: 0.5em;"><em>Animation illustrating light from a cluster of galaxies being lensed by dark matter (Source: <a href="(https://svs.gsfc.nasa.gov/20244/"> NASA's Goddard Space Flight Center Conceptual Image Lab </a>).</em></p>
 
 About me
 ==============
