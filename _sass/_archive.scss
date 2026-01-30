@@ -75,9 +75,9 @@
   video {
     width: 100%;
     height: auto;
-    object-fit: cover;
+    max-height: 400px;
+    object-fit: contain;
   }
-}
 
 .archive__item:hover {
   .archive__item-teaser {
