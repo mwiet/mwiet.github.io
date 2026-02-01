@@ -18,7 +18,7 @@ How do we detect dark matter? Seeing the invisible with gravitational lensing
 
 Dark matter is essentially invisble. To find it, we must look for its effects on the surrounding stars and galaxies. In fact, the gravity from dark matter bends the light of galaxies behind it in a phenomenon called gravitational lensing. By measuring the distortions in the background galaxies caused by the foreground dark matter, we can map where the invisible dark matter actually is, just like in the animation below:
 
-<video width="720" autoplay loop muted playsinline>
+<video width="720" style="max-width: 100%; height: auto;" autoplay loop muted playsinline>
   <source src="../files/GravLens_H2641080p.mov" type="video/mp4">
   Your browser does not support the video tag.
 </video>
