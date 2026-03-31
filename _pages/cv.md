@@ -80,6 +80,11 @@ Leadership roles
 
 Professional experience
 ======
+* Jan. 2026 - May. 2026:  **Co-chair of the SOC & LOC for the Next Frontier in Medical Data 2026 interdisciplinary colloquium**
+  <ul style="list-style: none;">
+    <li><i class="fa fa-solid fa-building-columns" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Durham University (UK)</li>
+	  <li><i class="fa-solid fa-circle-info" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Organisation of logistics and scientific content of the <a href="https://theory-to-therapy.github.io">"The Next Frontier in Medical Data 2026: Interdisciplinary Approaches from Maths and Physical Sciences" colloquium hosted at Durham University in September 2025.</a></li>
+  </ul>
 * Oct. 2024 - Now:  **Creator & organiser of ‘Scraps of Science’ sessions**
   <ul style="list-style: none;">
     <li><i class="fa fa-solid fa-building-columns" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Durham University (UK)</li>
@@ -89,6 +94,10 @@ Professional experience
   <ul style="list-style: none;">
     <li><i class="fa fa-solid fa-building-columns" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Durham University (UK)</li>
 	  <li><i class="fa-solid fa-circle-info" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Fortnightly session to discuss and present gravitational lensing-related research.</li>
+  </ul>
+* 2023 - 2026:	**Journal referee**, Monthly Notices to the Royal Astronomical Society, Astronomy & Astrophysics, and the Open Journal of Astrophysics
+  <ul style="list-style: none;">
+    <li><i class="fa-solid fa-circle-info" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Referee for papers submitted to MNRAS, A&A, and OJA.</li>
   </ul>
 * Dec. 2024 - Sep. 2025:  **Co-chair of the SOC & LOC for the ASTRODAT workshop**
   <ul style="list-style: none;">
@@ -104,11 +113,7 @@ Professional experience
   <ul style="list-style: none;">
     <li><i class="fa-solid fa-circle-info" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Chairing for contributed talks.</li>
   </ul>
-* 2023 - 2025:	**Journal referee**, Monthly Notices to the Royal Astronomical Society and the Open Journal of Astrophysics
-  <ul style="list-style: none;">
-    <li><i class="fa-solid fa-circle-info" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Referee for papers submitted to MNRAS and OJA.</li>
-  </ul>
-* May 2023:	**Organiser & chair of a conference for KiDS consortium**
+* May 2023:	**Organiser & chair of the KiDS consortium conference**
   <ul style="list-style: none;">
     <li><i class="fa fa-solid fa-building-columns" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;UCL Observatory (UK)</li>
 	  <li><i class="fa-solid fa-circle-info" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Organisation of a week-long KiDS consortium meeting and social activities.</li>
@@ -129,13 +134,13 @@ Skills
 ======
 * Proficient in, and comprehensive understanding of Python
 * Proficient understanding of Python scientific packages such as numpy, scipy, pandas, and matplotlib
-* Experienced in C++, bash, Mathematica and LaTeX
-* Familiar with SQL, R and HTML
+* Experienced in C++, bash, Mathematica, and LaTeX
+* Familiar with SQL, R, and HTML
 *	Experienced in the use, deployment and development of machine learning algorithms/AI
-* Implementation of parallel processes through MPI, OpenMP and multiprocessing
+* Implementation of parallel processes through MPI, OpenMP, and multiprocessing
 * Collaborative coding and version management through git
 * Experienced in high-performance computing and cluster management
-* Proficient in reading, writing, speaking and listening of English, German, Spanish and Catalan
+* Proficient in reading, writing, speaking and listening of English, German, Spanish, and Catalan
 
 Publications
 ======
