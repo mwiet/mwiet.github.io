@@ -15,9 +15,19 @@ var addressPoints = [
     11.3927685
   ],
   [
+    "<a href=\"/talks/#2026-03-16\" target=\"_top\">Institute for Computational Cosmology, Durham University</a><br>Durham, United Kingdom",
+    54.666667,
+    -1.75
+  ],
+  [
     "<a href=\"/talks/#2024-04-10\" target=\"_top\">SBI for Galaxy Evolution, University of Bristol</a><br>Bristol, United Kingdom",
     51.4538022,
     -2.5972985
+  ],
+  [
+    "<a href=\"/talks/#2026-01-13\" target=\"_top\">Royal Astronomical Society</a><br>London, United Kingdom",
+    51.5074456,
+    -0.1277653
   ],
   [
     "<a href=\"/talks/#2024-04-15\" target=\"_top\">Challenging the standard cosmological model, Royal Society</a><br>London, United Kingdom",
@@ -176,12 +186,17 @@ var addressPoints = [
   ],
   [
     "<a href=\"/talks/#2025-04-07\" target=\"_top\">University of Hong Kong</a><br>Hong Kong, China",
-    22.350627,
-    114.1849161
+    22.2792968,
+    114.1628907
   ],
   [
     "<a href=\"/talks/#2022-05-22\" target=\"_top\">KiDS Meeting, E.A. Milne Centre, University of Hull</a><br>Hull, United Kingdom",
-    53.7623862,
+    53.7623863,
     -0.3301214
+  ],
+  [
+    "<a href=\"/talks/#2025-11-04\" target=\"_top\">KiDS Meeting, Newcastle University</a><br>Newcastle, United Kingdom",
+    54.9738474,
+    -1.6131572
   ]
 ];
