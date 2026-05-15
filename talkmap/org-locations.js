@@ -15,6 +15,11 @@ var addressPoints = [
     11.3927685
   ],
   [
+    "<a href=\"/talks/#2026-04-29\" target=\"_top\">Cosmological Frontiers in Fundamental Physics, Perimeter Institute for Theoretical Physics</a><br>Waterloo, Canada",
+    43.4652699,
+    -80.5222961
+  ],
+  [
     "<a href=\"/talks/#2026-03-16\" target=\"_top\">Institute for Computational Cosmology, Durham University</a><br>Durham, United Kingdom",
     54.666667,
     -1.75
@@ -28,6 +33,11 @@ var addressPoints = [
     "<a href=\"/talks/#2026-01-13\" target=\"_top\">Royal Astronomical Society</a><br>London, United Kingdom",
     51.5074456,
     -0.1277653
+  ],
+  [
+    "<a href=\"/talks/#2026-04-28\" target=\"_top\">Waterloo Centre for Astrophysics, University of Waterloo</a><br>Waterloo, Canada",
+    43.4652699,
+    -80.5222961
   ],
   [
     "<a href=\"/talks/#2024-04-15\" target=\"_top\">Challenging the standard cosmological model, Royal Society</a><br>London, United Kingdom",
@@ -46,8 +56,8 @@ var addressPoints = [
   ],
   [
     "<a href=\"/talks/#2024-10-17\" target=\"_top\">Institut d'Astrophysique de Paris, Sorbonne Universit\u00e9</a><br>Paris, France",
-    48.8534951,
-    2.3483915
+    48.8588897,
+    2.320041
   ],
   [
     "<a href=\"/talks/#2025-10-03\" target=\"_top\">Oskar Klein Centre, Stockholm University</a><br>Stockholm, Sweden",
@@ -68,6 +78,11 @@ var addressPoints = [
     "<a href=\"/talks/#2025-03-25\" target=\"_top\">Euclid Consortium Meeting</a><br>Leiden, Netherlands",
     52.1594747,
     4.4908843
+  ],
+  [
+    "<a href=\"/talks/#2026-04-17\" target=\"_top\">Euclid-UK Meeting, University of Manchester</a><br>Manchester, United Kingdom",
+    53.4424618,
+    -2.2324547
   ],
   [
     "<a href=\"/talks/#2024-05-21\" target=\"_top\">COSMO21</a><br>Chania, Greece",
@@ -91,8 +106,8 @@ var addressPoints = [
   ],
   [
     "<a href=\"/talks/#2024-10-16\" target=\"_top\">Institut d'Astrophysique de Paris, Sorbonne Universit\u00e9</a><br>Paris, France",
-    48.8534951,
-    2.3483915
+    48.8588897,
+    2.320041
   ],
   [
     "<a href=\"/talks/#2025-10-01\" target=\"_top\">Oskar Klein Centre, Stockholm University</a><br>Stockholm, Sweden",
@@ -113,6 +128,11 @@ var addressPoints = [
     "<a href=\"/talks/#2024-03-27\" target=\"_top\">Institute for Astronomy, University of Edinburgh</a><br>Edinburgh, United Kingdom",
     55.9533456,
     -3.1883749
+  ],
+  [
+    "<a href=\"/talks/#2026-04-21\" target=\"_top\">First Ox & Lancs Colloquium, Newcastle University</a><br>Preston, United Kingdom",
+    53.7593363,
+    -2.6992717
   ],
   [
     "<a href=\"/talks/#2024-06-18\" target=\"_top\">Euclid Consortium Meeting, Sapienza Universit\u00e0 di Roma</a><br>Rome, Italy",
@@ -146,8 +166,8 @@ var addressPoints = [
   ],
   [
     "<a href=\"/talks/#2022-04-22\" target=\"_top\">LFI in Paris, \u00c9cole Normale Sup\u00e9rieure</a><br>Paris, France",
-    48.8534951,
-    2.3483915
+    48.8588897,
+    2.320041
   ],
   [
     "<a href=\"/talks/#2025-03-26\" target=\"_top\">Euclid Consortium Meeting</a><br>Leiden, Netherlands",
@@ -175,6 +195,11 @@ var addressPoints = [
     -0.1277653
   ],
   [
+    "<a href=\"/talks/#2026-05-05\" target=\"_top\">Durham University</a><br>Durham, United Kingdom",
+    54.666667,
+    -1.75
+  ],
+  [
     "<a href=\"/talks/#2025-01-09\" target=\"_top\">Newcastle University</a><br>Newcastle, United Kingdom",
     54.9738474,
     -1.6131572
@@ -193,6 +218,11 @@ var addressPoints = [
     "<a href=\"/talks/#2022-05-22\" target=\"_top\">KiDS Meeting, E.A. Milne Centre, University of Hull</a><br>Hull, United Kingdom",
     53.7623863,
     -0.3301214
+  ],
+  [
+    "<a href=\"/talks/#2026-03-25\" target=\"_top\">Euclid Detector Conference, European Space Research and Technology Centre (ESTEC)</a><br>Noordwijk, Netherlands",
+    52.2410856,
+    4.4461969
   ],
   [
     "<a href=\"/talks/#2025-11-04\" target=\"_top\">KiDS Meeting, Newcastle University</a><br>Newcastle, United Kingdom",
