@@ -1,5 +1,5 @@
 ---
-title: "\textit{Euclid} preparation. Baryon acoustic oscillations extraction techniques: comparison and optimisation"
+title: "Euclid preparation. Baryon acoustic oscillations extraction techniques: comparison and optimisation"
 collection: publications
 permalink: /publication/2026-05-05-textiteuclid-preparation-baryon-acoustic
 excerpt: ''
