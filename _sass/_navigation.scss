@@ -305,6 +305,26 @@
         border-bottom: none;
       }
     }
+
+    /* Mobile: full-width panel flush with the masthead */
+    @media screen and (max-width: 57.8em) {
+      left: 0;
+      margin-top: 0;
+      border-top: 2px solid $primary-color;
+      border-left: 0;
+      border-right: 0;
+      border-radius: 0;
+      box-shadow: 0 4px 8px rgba(#000, 0.12);
+
+      &:before,
+      &:after {
+        display: none;
+      }
+
+      a {
+        padding: 14px 20px;
+      }
+    }
   }
 }
 
