@@ -450,3 +450,128 @@
     }
   }
 }
+
+
+/*
+   Mobile navigation — replaces greedy-nav on small screens
+   ========================================================================== */
+
+/* Hide the desktop greedy-nav on mobile */
+@media screen and (max-width: 57.8em) {
+  .greedy-nav {
+    display: none;
+  }
+}
+
+/* Mobile nav header bar (title + Menu button) */
+.mobile-nav {
+  display: none;
+
+  @media screen and (max-width: 57.8em) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  &__title {
+    color: $masthead-link-color;
+    font-family: $sans-serif-narrow;
+    font-weight: bold;
+    font-size: $type-size-5;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex: 1;
+    min-width: 0;
+    margin-right: 0.75em;
+    line-height: 1.3;
+
+    &:hover {
+      color: $masthead-link-color-hover;
+    }
+  }
+
+  &__toggle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    padding: 0.4em 0.8em;
+    min-height: 44px;
+    min-width: 60px;
+    background-color: $primary-color;
+    color: #fff;
+    border: 0;
+    outline: none;
+    border-radius: $border-radius;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  &__label {
+    font-family: $sans-serif;
+    font-size: 0.58em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 3px;
+
+    &::before {
+      content: "Menu";
+    }
+  }
+
+  &__toggle.close &__label::before {
+    content: "Close";
+  }
+}
+
+/* Mobile nav dropdown panel */
+.mobile-nav__menu {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border-top: 2px solid $primary-color;
+  border-bottom: 1px solid $border-color;
+  box-shadow: 0 4px 10px rgba(#000, 0.12);
+  z-index: 19;
+
+  @media screen and (max-width: 57.8em) {
+    &:not(.hidden) {
+      display: block;
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    border-bottom: 1px solid $border-color;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  a {
+    display: block;
+    padding: 14px 20px;
+    font-family: $sans-serif-narrow;
+    font-size: $type-size-5;
+    color: $masthead-link-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $masthead-link-color-hover;
+      background: mix(#fff, $primary-color, 80%);
+    }
+  }
+}

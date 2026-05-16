@@ -18,6 +18,25 @@
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
+      <div class="mobile-nav">
+        <a href="{{ base_path }}/" class="mobile-nav__title">{{ site.title }}</a>
+        <button class="mobile-nav__toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <div class="navicon"></div>
+          <span class="mobile-nav__label"></span>
+        </button>
+      </div>
     </div>
   </div>
+  <nav class="mobile-nav__menu hidden" aria-label="Site navigation">
+    <ul>
+      {% for link in site.data.navigation.main %}
+        {% if link.url contains 'http' %}
+          {% assign domain = '' %}
+          {% else %}
+          {% assign domain = base_path %}
+        {% endif %}
+        <li><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
 </div>
