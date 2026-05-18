@@ -1,27 +1,4 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
-<script>
-(function () {
-  var toggle = document.querySelector('.mobile-nav__toggle');
-  var menu   = document.querySelector('.mobile-nav__menu');
-  if (!toggle || !menu) return;
-
-  toggle.addEventListener('click', function () {
-    var opening = menu.classList.contains('hidden');
-    menu.classList.toggle('hidden');
-    toggle.classList.toggle('close');
-    toggle.setAttribute('aria-expanded', opening ? 'true' : 'false');
-  });
-
-  var links = menu.querySelectorAll('a');
-  for (var i = 0; i < links.length; i++) {
-    links[i].addEventListener('click', function () {
-      menu.classList.add('hidden');
-      toggle.classList.remove('close');
-      toggle.setAttribute('aria-expanded', 'false');
-    });
-  }
-})();
-</script>
 
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}

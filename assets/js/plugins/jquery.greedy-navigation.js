@@ -22,8 +22,10 @@ function updateNav() {
     // Record the width of the list
     breaks.push($vlinks.width());
 
-    // Move item to the hidden list
-    $vlinks.children().last().prependTo($hlinks);
+    // Move item to the hidden list — but never move the site title (first child)
+    if ($vlinks.children().length > 1) {
+      $vlinks.children().last().prependTo($hlinks);
+    }
 
     // Show the dropdown btn
     if($btn.hasClass('hidden')) {
@@ -51,8 +53,8 @@ function updateNav() {
   // Keep counter updated
   $btn.attr("count", breaks.length);
 
-  // Recur if the visible list is still overflowing the nav
-  if($vlinks.width() > availableSpace) {
+  // Recur if the visible list is still overflowing the nav (but stop when only the site title remains)
+  if($vlinks.width() > availableSpace && $vlinks.children().length > 1) {
     updateNav();
   }
 
