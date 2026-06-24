@@ -56,8 +56,8 @@ var addressPoints = [
   ],
   [
     "<a href=\"/talks/#2024-10-17\" target=\"_top\">Institut d'Astrophysique de Paris, Sorbonne Universit\u00e9</a><br>Paris, France",
-    48.8588897,
-    2.320041
+    48.8534951,
+    2.3483915
   ],
   [
     "<a href=\"/talks/#2025-10-03\" target=\"_top\">Oskar Klein Centre, Stockholm University</a><br>Stockholm, Sweden",
@@ -106,8 +106,8 @@ var addressPoints = [
   ],
   [
     "<a href=\"/talks/#2024-10-16\" target=\"_top\">Institut d'Astrophysique de Paris, Sorbonne Universit\u00e9</a><br>Paris, France",
-    48.8588897,
-    2.320041
+    48.8534951,
+    2.3483915
   ],
   [
     "<a href=\"/talks/#2025-10-01\" target=\"_top\">Oskar Klein Centre, Stockholm University</a><br>Stockholm, Sweden",
@@ -160,14 +160,19 @@ var addressPoints = [
     -0.1277653
   ],
   [
+    "<a href=\"/talks/#2026-06-24\" target=\"_top\">SBI for Galaxy Evolution, University of Cambridge</a><br>Cambridge, United Kingdom",
+    52.1975846,
+    0.1391537
+  ],
+  [
     "<a href=\"/talks/#2025-05-23\" target=\"_top\">Max Planck Institute for Astrophysics</a><br>Garching, Germany",
     48.2513878,
     11.6509662
   ],
   [
     "<a href=\"/talks/#2022-04-22\" target=\"_top\">LFI in Paris, \u00c9cole Normale Sup\u00e9rieure</a><br>Paris, France",
-    48.8588897,
-    2.320041
+    48.8534951,
+    2.3483915
   ],
   [
     "<a href=\"/talks/#2025-03-26\" target=\"_top\">Euclid Consortium Meeting</a><br>Leiden, Netherlands",
@@ -211,8 +216,8 @@ var addressPoints = [
   ],
   [
     "<a href=\"/talks/#2025-04-07\" target=\"_top\">University of Hong Kong</a><br>Hong Kong, China",
-    22.2792968,
-    114.1628907
+    22.2818333,
+    114.1582831
   ],
   [
     "<a href=\"/talks/#2022-05-22\" target=\"_top\">KiDS Meeting, E.A. Milne Centre, University of Hull</a><br>Hull, United Kingdom",
