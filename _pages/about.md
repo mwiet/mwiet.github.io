@@ -32,8 +32,8 @@ home_hero: true
 
       <article class="c-area" role="listitem">
         <span class="c-area__note">&delta;(<em>x</em>)</span>
-        <h3 class="c-area__title">Large-scale structure</h3>
-        <p class="c-area__desc">Modelling the cosmic web: the filaments, walls and voids whose growth over cosmic time encodes dark matter and dark energy.</p>
+        <h3 class="c-area__title">Large-scale structure &amp; galaxy clustering</h3>
+        <p class="c-area__desc">Modelling the galaxy-traced cosmic web: the filaments, walls and voids whose growth over cosmic time encodes dark matter and dark energy.</p>
       </article>
 
       <article class="c-area" role="listitem">
@@ -55,7 +55,7 @@ home_hero: true
       </article>
 
       <article class="c-area" role="listitem">
-        <i class="<i class="fa-solid fa-staff-snake" aria-hidden="true">
+        <span class="c-area__note"><i class="<i class="fa-solid fa-staff-snake" aria-hidden="true"></span>
         <h3 class="c-area__title">Applications to cancer research</h3>
         <p class="c-area__desc">Applying Bayesian inference techniques from astrophysics and cosmology to the tools for personalised cancer treatments.</p>
       </article>
