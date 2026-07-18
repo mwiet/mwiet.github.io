@@ -304,7 +304,7 @@
   align-items: center;
   justify-content: center;
   padding: 0.7rem 1rem;
-  min-height: 62px;
+  min-height: 102px;
   background: #fff;
   border: 1px solid var(--line);
   border-radius: 4px;
@@ -318,7 +318,7 @@
 .c-collabs img {
   display: block;
   width: auto;
-  max-height: 40px;
+  max-height: 80px;
   filter: grayscale(1);
   opacity: 0.72;
   transition: filter 0.2s ease, opacity 0.2s ease;
