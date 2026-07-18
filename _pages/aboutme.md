@@ -12,7 +12,7 @@ redirect_from:
   <div class="c-about__intro">
     <div class="c-about__intro-copy">
       <p class="c-eyebrow">About me</p>
-      <h1 class="c-about__title">A cosmologist mapping<br>the invisible Universe</h1>
+      <h1 class="c-about__title">A cosmologist studying<br>the invisible Universe</h1>
       <p class="c-about__lede">
         I am a cosmologist at the intersection between theory and observation. My research
         centres around understanding the Universe as a whole, from the largest possible scales
