@@ -26,13 +26,18 @@ var addressPoints = [
   ],
   [
     "<a href=\"/talks/#2024-04-10\" target=\"_top\">SBI for Galaxy Evolution, University of Bristol</a><br>Bristol, United Kingdom",
-    51.4538022,
-    -2.5972985
+    51.4430162,
+    -2.581661
   ],
   [
     "<a href=\"/talks/#2026-01-13\" target=\"_top\">Royal Astronomical Society</a><br>London, United Kingdom",
     51.5074456,
     -0.1277653
+  ],
+  [
+    "<a href=\"/talks/#2026-07-16\" target=\"_top\">Dark Energy Spectroscopic Instrument Collaboration Meeting, Durham University</a><br>Durham, United Kingdom",
+    54.666667,
+    -1.75
   ],
   [
     "<a href=\"/talks/#2026-04-28\" target=\"_top\">Waterloo Centre for Astrophysics, University of Waterloo</a><br>Waterloo, Canada",
@@ -66,8 +71,8 @@ var addressPoints = [
   ],
   [
     "<a href=\"/talks/#2024-07-10\" target=\"_top\">CosmoVerse, Jagiellonian University in Krakow</a><br>Krakow, Poland",
-    50.0619474,
-    19.9368564
+    50.0469432,
+    19.9971534
   ],
   [
     "<a href=\"/talks/#2025-05-14\" target=\"_top\">Open University</a><br>Milton Keynes, United Kingdom",
@@ -101,8 +106,8 @@ var addressPoints = [
   ],
   [
     "<a href=\"/talks/#2025-05-25\" target=\"_top\">SBI for Galaxy Evolution, University of Bristol</a><br>Bristol, United Kingdom",
-    51.4538022,
-    -2.5972985
+    51.4430162,
+    -2.581661
   ],
   [
     "<a href=\"/talks/#2024-10-16\" target=\"_top\">Institut d'Astrophysique de Paris, Sorbonne Universit\u00e9</a><br>Paris, France",
@@ -141,8 +146,8 @@ var addressPoints = [
   ],
   [
     "<a href=\"/talks/#2025-05-26\" target=\"_top\">SBI for Galaxy Evolution, University of Bristol</a><br>Bristol, United Kingdom",
-    51.4538022,
-    -2.5972985
+    51.4430162,
+    -2.581661
   ],
   [
     "<a href=\"/talks/#2023-03-09\" target=\"_top\">Durham University</a><br>Durham, United Kingdom",
