@@ -71,93 +71,53 @@
   var ctx = canvas.getContext('2d');
   var host = canvas.closest('[data-hero]');
 
-  var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-  var GOLD = [233, 180, 90];
-  var LENS = [126, 166, 221];
-
   var W = 0, H = 0, DPR = Math.min(window.devicePixelRatio || 1, 2);
-  var galaxies = [], stars = [];
+  var galaxies = [];
   var lens = { x: 0, y: 0, thetaE: 0 };
-  var running = false, rafId = null, elapsed = 0, lastTime = 0;
+  var rafId = null, elapsed = 0, lastTime = 0;
 
   function rand(a, b) { return a + Math.random() * (b - a); }
 
   function build() {
     var rect = host.getBoundingClientRect();
     
-    // JS FAILSAFE 1: If the container calculates as squashed (~0), force fallback dimensions
     W = rect.width > 50 ? Math.floor(rect.width) : window.innerWidth;
     H = rect.height > 50 ? Math.floor(rect.height) : Math.floor(window.innerHeight * 0.75);
-    
-    // Force the host container to accept the height if it was squashed
-    host.style.minHeight = H + 'px';
 
-    canvas.width = Math.floor(W * DPR);
-    canvas.height = Math.floor(H * DPR);
-    canvas.style.width = W + 'px';
-    canvas.style.height = H + 'px';
+    canvas.width = W * DPR;
+    canvas.height = H * DPR;
     ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
 
-    // JS FAILSAFE 2: Force a minimum count of 50 galaxies, even if W * H is unusually small
-    var target = Math.max(50, Math.min(340, Math.round((W * H) / 3400)));
+    // Hardcode 200 galaxies to guarantee arrays are populated
     galaxies = [];
-    for (var i = 0; i < target; i++) {
+    for (var i = 0; i < 200; i++) {
       galaxies.push({
         x: rand(0, W), y: rand(0, H),
         r: rand(3.6, 11),
         e0: rand(0.04, 0.20),
         a0: rand(0, Math.PI),
-        alpha: rand(0.16, 0.5)
-      });
-    }
-
-    var scount = Math.max(20, Math.min(170, Math.round((W * H) / 7000)));
-    stars = [];
-    for (var s = 0; s < scount; s++) {
-      stars.push({
-        x: rand(0, W), y: rand(0, H),
-        r: rand(0.3, 1.1),
-        a: rand(0.12, 0.7),
-        tw: rand(0, Math.PI * 2),
-        warm: Math.random() < 0.5
+        alpha: rand(0.3, 0.8) // Boosted opacity so they cannot hide
       });
     }
 
     lens.thetaE = Math.max(120, Math.min(W, H) * 0.36);
   }
 
-  function lensPos(time) {
-    var cx = W * (W > 760 ? 0.62 : 0.52);
-    var cy = H * (W > 760 ? 0.46 : 0.62);
-    var ax = Math.min(W * 0.14, 150);
-    var ay = Math.min(H * 0.18, 110);
-    lens.x = cx + Math.sin(time * 0.00013) * ax;
-    lens.y = cy + Math.cos(time * 0.00017) * ay;
-  }
-
-  function mix(c1, c2, u) {
-    return 'rgba(' +
-      Math.round(c1[0] + (c2[0] - c1[0]) * u) + ',' +
-      Math.round(c1[1] + (c2[1] - c1[1]) * u) + ',' +
-      Math.round(c1[2] + (c2[2] - c1[2]) * u) + ',';
-  }
-
-  function drawStars(time) {
-    for (var i = 0; i < stars.length; i++) {
-      var s = stars[i];
-      var tw = 0.6 + 0.4 * Math.sin(time * 0.001 + s.tw);
-      var col = s.warm ? GOLD : LENS;
-      ctx.beginPath();
-      ctx.fillStyle = mix([243, 239, 230], col, 0.5) + (s.a * tw).toFixed(3) + ')';
-      ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
-      ctx.fill();
-    }
-  }
-
   function render(time) {
     ctx.clearRect(0, 0, W, H);
-    drawStars(time);
+
+    // --- DIAGNOSTIC BEACON ---
+    // This draws a bright magenta circle in the top-left corner.
+    // If you see this, JavaScript is 100% working.
+    ctx.beginPath();
+    ctx.arc(40, 40, 15, 0, Math.PI * 2);
+    ctx.fillStyle = "magenta";
+    ctx.fill();
+    // -------------------------
+
+    // Smooth orbital lens movement
+    lens.x = (W * 0.55) + Math.sin(time * 0.00013) * 150;
+    lens.y = (H * 0.50) + Math.cos(time * 0.00017) * 110;
 
     for (var i = 0; i < galaxies.length; i++) {
       var g = galaxies[i];
@@ -173,16 +133,15 @@
       var eang = 0.5 * Math.atan2(e2, e1);
 
       var ratio = (1 - emag) / (1 + emag);
-      var u = Math.min(1, gt / 0.55);
-      var a = g.r * (1 + u * 0.7), b = a * ratio;
-      var op = Math.min(0.95, g.alpha + u * 0.5);
+      var a = g.r * (1 + gt * 0.7), b = a * ratio;
 
       ctx.save();
       ctx.translate(g.x, g.y);
       ctx.rotate(eang);
       ctx.beginPath();
       ctx.ellipse(0, 0, a, b, 0, 0, Math.PI * 2);
-      ctx.fillStyle = mix(LENS, GOLD, u) + op.toFixed(3) + ')';
+      
+      ctx.fillStyle = "rgba(40, 100, 220, " + g.alpha + ")";
       ctx.fill();
       ctx.restore();
     }
@@ -195,63 +154,15 @@
     elapsed += dt;
     lastTime = time;
 
-    lensPos(elapsed);
     render(elapsed);
     rafId = requestAnimationFrame(frame);
   }
 
-  function start() {
-    if (running || reduceMotion) return;
-    running = true; 
-    lastTime = 0; 
-    rafId = requestAnimationFrame(frame);
-  }
-  
-  function stop() {
-    running = false;
-    if (rafId) cancelAnimationFrame(rafId);
-    rafId = null;
-  }
+  build();
+  rafId = requestAnimationFrame(frame);
 
-  function init() {
+  window.addEventListener('resize', function () {
     build();
-    lensPos(0);
-    render(0); // JS FAILSAFE 3: Force at least one frame to appear statically, even if animation halts
-    
-    if (!reduceMotion) {
-      start();
-    }
-  }
-
-  if ('IntersectionObserver' in window && !reduceMotion) {
-    new IntersectionObserver(function (entries) {
-      entries[0].isIntersecting ? start() : stop();
-    }, { threshold: 0.01 }).observe(host);
-  }
-  
-  document.addEventListener('visibilitychange', function () {
-    if (document.hidden) stop(); else if (!reduceMotion) start();
   });
-
-  var resizeTimer;
-  function handleResize() {
-    clearTimeout(resizeTimer);
-    resizeTimer = setTimeout(function () {
-      stop(); init();
-    }, 180);
-  }
-
-  if ('ResizeObserver' in window) {
-    new ResizeObserver(handleResize).observe(host);
-  } else {
-    window.addEventListener('resize', handleResize);
-  }
-
-  // Guarantee init fires even if Jekyll readyState logic skips
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-  } else {
-    init();
-  }
 })();
 </script>
