@@ -23,7 +23,7 @@ redirect_from:
         the scaffolding of the cosmos grows and bends light
         (see the <a class="c-link" href="#seeing-the-invisible">illustration below</a>),
         I build the rigorous groundwork needed to test whether our current picture of the
-        Universe and gravity is truly right &mdash; or if something fundamental is still missing.
+        Universe and gravity is truly right, or if something fundamental is still missing.
       </p>
       <p>
         Specifically, I am interested in dark matter and its effect on the formation of
@@ -56,7 +56,7 @@ redirect_from:
       <span class="c-talk__play" aria-hidden="true">
         <span><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
       </span>
-      <span class="c-talk__label">Watch on YouTube &mdash; Simulation-Based Inference Analysis of KiDS</span>
+      <span class="c-talk__label">Watch on YouTube, Simulation-Based Inference Analysis of KiDS</span>
     </a>
   </section>
 
@@ -88,8 +88,8 @@ redirect_from:
     <p class="c-eyebrow">Public engagement</p>
     <h2 class="c-h2" id="engage-heading">Bringing the dark Universe to the public</h2>
     <p class="c-lead c-section__intro">
-      I have taken my research to the public at the Royal Society Summer Science Exhibition
-      through two stands &mdash; one for each side of my work. Explore the live exhibits below.
+      I recently had the chance to partake in the Royal Society Summer Science Exhibition
+      through two stands, one for each side of my work. Explore the live exhibits below.
     </p>
 
     <div class="c-exhibits">
@@ -103,8 +103,8 @@ redirect_from:
           <h3 class="c-exhibit__title">Universe Makers</h3>
           <p class="c-exhibit__desc">
             A public showcase of the simulating and modelling side of my work. Run cosmic
-            simulations &mdash; from the growth of the cosmic web to the diversity of galaxies
-            and planetary impacts &mdash; and see how we build synthetic universes to understand
+            simulations, from the growth of the cosmic web to the diversity of galaxies
+            and planetary impacts, and see how we build synthetic universes to understand
             the real one.
           </p>
           <a class="c-exhibit__cta" href="https://universemakers.org/" target="_blank" rel="noopener">
@@ -145,7 +145,7 @@ redirect_from:
       surrounding stars and galaxies. In fact, the gravity from dark matter bends the light of
       galaxies behind it in a phenomenon called gravitational lensing. By measuring the
       distortions in the background galaxies caused by the foreground dark matter, we can map
-      where the invisible dark matter actually is &mdash; just like in the animation below.
+      where the invisible dark matter actually is, just like in the animation below.
     </p>
     <figure class="c-figure">
       <div class="c-figure__media">
