@@ -1,5 +1,29 @@
 {% include base_path %}
 
+<style>
+  .c-hero[data-hero] {
+    position: relative !important;
+    isolation: isolate !important; /* Traps the z-index:-1 canvas inside this specific container */
+    overflow: hidden !important;
+    background-color: transparent !important;
+  }
+  
+  .c-hero__field[data-shear] {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: -1 !important; /* Tucks safely behind the text */
+    pointer-events: none !important;
+  }
+  
+  .c-hero__scrim, .c-hero__inner {
+    position: relative !important;
+    z-index: 1 !important;
+  }
+</style>
+
 <section class="c-hero" data-hero aria-label="Introduction">
   <canvas class="c-hero__field" data-shear aria-hidden="true"></canvas>
   <div class="c-hero__scrim" aria-hidden="true"></div>
@@ -47,7 +71,6 @@
 
   var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  // Palette (kept in sync with _hero.scss)
   var GOLD = [233, 180, 90];
   var LENS = [126, 166, 221];
 
@@ -68,16 +91,15 @@
     canvas.style.height = H + 'px';
     ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
 
-    // Galaxy density scaled to area, capped for performance.
     var target = Math.min(340, Math.round((W * H) / 3400));
     galaxies = [];
     for (var i = 0; i < target; i++) {
       galaxies.push({
         x: rand(0, W), y: rand(0, H),
         r: rand(3.6, 11),
-        e0: rand(0.04, 0.20),          // intrinsic ellipticity
-        a0: rand(0, Math.PI),          // intrinsic orientation
-        alpha: rand(0.16, 0.5)         // base opacity
+        e0: rand(0.04, 0.20),
+        a0: rand(0, Math.PI),
+        alpha: rand(0.16, 0.5)
       });
     }
 
@@ -97,8 +119,6 @@
   }
 
   function lensPos(time) {
-    // Lens sits in the open right-of-centre space (clear of the headline),
-    // drifting on a slow Lissajous path so the shear field keeps re-mapping.
     var cx = W * (W > 760 ? 0.62 : 0.52);
     var cy = H * (W > 760 ? 0.46 : 0.62);
     var ax = Math.min(W * 0.14, 150);
@@ -136,17 +156,15 @@
       var theta = Math.sqrt(dx * dx + dy * dy);
       var phi = Math.atan2(dy, dx);
 
-      // SIS tangential shear: g_t = thetaE / (2 theta), clamped.
       var gt = Math.min(0.88, lens.thetaE / (2 * Math.max(theta, 20)));
 
-      // Complex ellipticity: intrinsic + tangential shear (major axis perpendicular to radius).
       var e1 = g.e0 * Math.cos(2 * g.a0) + gt * Math.cos(2 * (phi + Math.PI / 2));
       var e2 = g.e0 * Math.sin(2 * g.a0) + gt * Math.sin(2 * (phi + Math.PI / 2));
       var emag = Math.min(0.9, Math.sqrt(e1 * e1 + e2 * e2));
       var eang = 0.5 * Math.atan2(e2, e1);
 
-      var ratio = (1 - emag) / (1 + emag);   // b/a
-      var u = Math.min(1, gt / 0.55);         // shear strength 0..1 -> size, colour, brightness
+      var ratio = (1 - emag) / (1 + emag);
+      var u = Math.min(1, gt / 0.55);
       var a = g.r * (1 + u * 0.7), b = a * ratio;
       var op = Math.min(0.95, g.alpha + u * 0.5);
 
@@ -163,7 +181,12 @@
 
   function frame(time) {
     if (!lastTime) lastTime = time;
-    elapsed += (time - lastTime);
+    
+    // Calculate difference, capped at 100ms to prevent massive animation jumps when changing browser tabs
+    var dt = time - lastTime;
+    if (dt > 100) dt = 16;
+    
+    elapsed += dt;
     lastTime = time;
 
     lensPos(elapsed);
@@ -187,14 +210,13 @@
   function init() {
     build();
     if (reduceMotion) {
-      lensPos(4200);      // fixed, composed frame
+      lensPos(4200);
       render(4200);
     } else {
       start();
     }
   }
 
-  // Pause when the hero scrolls out of view.
   if ('IntersectionObserver' in window && !reduceMotion) {
     new IntersectionObserver(function (entries) {
       entries[0].isIntersecting ? start() : stop();
@@ -216,7 +238,6 @@
   if ('ResizeObserver' in window) {
     new ResizeObserver(handleResize).observe(host);
   } else {
-    // Fallback for older browsers
     window.addEventListener('resize', handleResize);
   }
 
