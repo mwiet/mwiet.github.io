@@ -52,6 +52,12 @@ home_hero: true
         <h3 class="c-area__title">Bayesian &amp; simulation-based inference</h3>
         <p class="c-area__desc">Developing rigorous, simulation-based inference pipelines that extract dark-matter and dark-energy constraints from real data.</p>
       </article>
+
+      <article class="c-area" role="listitem">
+        <span class="c-area__note"><i class="<i class="fa-solid fa-staff-snake" aria-hidden="true"></span>
+        <h3 class="c-area__title">Applications to cancer research</h3>
+        <p class="c-area__desc">Applying Bayesian inference techniques from astrophysics and cosmology to the tools for personalised cancer treatments.</p>
+      </article>
     </div>
 
     <a class="c-link" href="/about/">
