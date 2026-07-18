@@ -51,7 +51,7 @@ home_hero: true
       <article class="c-area" role="listitem">
         <span class="c-area__note"><i class="fa-solid fa-staff-snake" aria-hidden="true"></i></span>
         <h3 class="c-area__title">Applications to cancer research</h3>
-        <p class="c-area__desc">Applying Bayesian inference techniques from astrophysics and cosmology to the tools for personalised cancer treatments.</p>
+        <p class="c-area__desc">Applying Bayesian inference techniques from astrophysics and cosmology to tools for personalised cancer treatments.</p>
       </article>
     </div>
 

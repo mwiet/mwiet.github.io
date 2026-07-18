@@ -61,7 +61,7 @@
   var W = 0, H = 0, DPR = Math.min(window.devicePixelRatio || 1, 2);
   var galaxies = [], stars = [];
   var lens = { x: 0, y: 0, thetaE: 0 };
-  var running = false, rafId = null, t0 = 0;
+  var running = false, rafId = null, elapsed = 0, lastTime = 0;
 
   function rand(a, b) { return a + Math.random() * (b - a); }
 
@@ -169,17 +169,22 @@
   }
 
   function frame(time) {
-    if (!t0) t0 = time;
-    lensPos(time - t0);
-    render(time - t0);
+    if (!lastTime) lastTime = time;
+    elapsed += (time - lastTime);
+    lastTime = time;
+
+    lensPos(elapsed);
+    render(elapsed);
     rafId = requestAnimationFrame(frame);
   }
 
   function start() {
     if (running || reduceMotion) return;
-    running = true; t0 = 0;
+    running = true; 
+    lastTime = 0; 
     rafId = requestAnimationFrame(frame);
   }
+  
   function stop() {
     running = false;
     if (rafId) cancelAnimationFrame(rafId);
@@ -202,18 +207,30 @@
       entries[0].isIntersecting ? start() : stop();
     }, { threshold: 0.01 }).observe(host);
   }
+  
   document.addEventListener('visibilitychange', function () {
     if (document.hidden) stop(); else if (!reduceMotion) start();
   });
 
   var resizeTimer;
-  window.addEventListener('resize', function () {
+  function handleResize() {
     clearTimeout(resizeTimer);
     resizeTimer = setTimeout(function () {
       stop(); init();
     }, 180);
-  });
+  }
 
-  init();
+  if ('ResizeObserver' in window) {
+    new ResizeObserver(handleResize).observe(host);
+  } else {
+    // Fallback for older browsers
+    window.addEventListener('resize', handleResize);
+  }
+
+  if (document.readyState === 'complete') {
+    init();
+  } else {
+    window.addEventListener('load', init);
+  }
 })();
 </script>
