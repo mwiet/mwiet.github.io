@@ -1,33 +1,31 @@
 {% include base_path %}
 
 <style>
-  .c-hero[data-hero] {
+  .c-hero {
     position: relative !important;
     isolation: isolate !important; 
     overflow: hidden !important;
     background-color: transparent !important;
-    min-height: 50vh !important; /* CSS failsafe to ensure physical space */
+    min-height: 50vh !important; 
   }
-  
-  .c-hero__field[data-shear] {
+  .c-hero__field {
     position: absolute !important;
     top: 0 !important;
     left: 0 !important;
     width: 100% !important;
     height: 100% !important;
-    z-index: 0 !important; /* Reverted to tuck behind the text */
+    z-index: 0 !important; 
     pointer-events: none !important;
-    /* Red diagnostic background removed */
   }
-  
   .c-hero__scrim, .c-hero__inner {
     position: relative !important;
-    z-index: 1 !important; /* Reverted to standard text hierarchy */
+    z-index: 1 !important; 
   }
 </style>
 
-<section class="c-hero" data-hero aria-label="Introduction">
-  <canvas class="c-hero__field" data-shear aria-hidden="true"></canvas>
+<!-- ADDED IDs HERE -->
+<section id="hero-section" class="c-hero" aria-label="Introduction">
+  <canvas id="hero-canvas" class="c-hero__field" aria-hidden="true"></canvas>
   <div class="c-hero__scrim" aria-hidden="true"></div>
 
   <div class="c-hero__inner">
@@ -56,113 +54,53 @@
       <img src="{{ base_path }}/images/profile_zoom.png" alt="Maximilian von Wietersheim-Kramsta" loading="eager" decoding="async">
     </figure>
   </div>
-
-  <p class="c-hero__legend">
-    <span class="c-hero__gamma" aria-hidden="true">&gamma;</span>
-    Each ellipse is a background galaxy, distorted by the gravity of unseen mass,
-    one of the cosmic signals I model to map dark matter and dark energy.
-  </p>
 </section>
 
 <script>
-(function () {
-  var canvas = document.querySelector('[data-shear]');
-  if (!canvas || !canvas.getContext) return;
-  var ctx = canvas.getContext('2d');
-  var host = canvas.closest('[data-hero]');
+console.log("[Hero Diagnostic] 1. Script block reached.");
 
-  var W = 0, H = 0, DPR = Math.min(window.devicePixelRatio || 1, 2);
-  var galaxies = [];
-  var lens = { x: 0, y: 0, thetaE: 0 };
-  var rafId = null, elapsed = 0, lastTime = 0;
-
-  function rand(a, b) { return a + Math.random() * (b - a); }
-
-  function build() {
-    var rect = host.getBoundingClientRect();
+window.addEventListener('DOMContentLoaded', function() {
+  console.log("[Hero Diagnostic] 2. DOMContentLoaded fired.");
+  
+  try {
+    var canvas = document.getElementById('hero-canvas');
+    var host = document.getElementById('hero-section');
     
-    W = rect.width > 50 ? Math.floor(rect.width) : window.innerWidth;
-    H = rect.height > 50 ? Math.floor(rect.height) : Math.floor(window.innerHeight * 0.75);
+    console.log("[Hero Diagnostic] 3. Canvas element found:", canvas);
+    console.log("[Hero Diagnostic] 4. Host element found:", host);
 
-    canvas.width = W * DPR;
-    canvas.height = H * DPR;
-    ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
-
-    // Hardcode 200 galaxies to guarantee arrays are populated
-    galaxies = [];
-    for (var i = 0; i < 200; i++) {
-      galaxies.push({
-        x: rand(0, W), y: rand(0, H),
-        r: rand(3.6, 11),
-        e0: rand(0.04, 0.20),
-        a0: rand(0, Math.PI),
-        alpha: rand(0.3, 0.8) // Boosted opacity so they cannot hide
-      });
+    if (!canvas) {
+      console.error("[Hero Diagnostic] ERROR: Canvas is null! The script cannot draw.");
+      return;
     }
 
-    lens.thetaE = Math.max(120, Math.min(W, H) * 0.36);
-  }
+    var ctx = canvas.getContext('2d');
+    if (!ctx) {
+      console.error("[Hero Diagnostic] ERROR: Canvas context failed to initialize.");
+      return;
+    }
+    
+    console.log("[Hero Diagnostic] 5. Canvas Context 2D established.");
 
-  function render(time) {
-    ctx.clearRect(0, 0, W, H);
+    var rect = host.getBoundingClientRect();
+    var W = rect.width > 50 ? Math.floor(rect.width) : window.innerWidth;
+    var H = rect.height > 50 ? Math.floor(rect.height) : Math.floor(window.innerHeight * 0.75);
+    
+    console.log("[Hero Diagnostic] 6. Dimensions calculated: W=", W, "H=", H);
 
-    // --- DIAGNOSTIC BEACON ---
-    // This draws a bright magenta circle in the top-left corner.
-    // If you see this, JavaScript is 100% working.
+    canvas.width = W;
+    canvas.height = H;
+
+    // Draw the giant magenta dot purely to prove it can render
     ctx.beginPath();
-    ctx.arc(40, 40, 15, 0, Math.PI * 2);
+    ctx.arc(W/2, H/2, 100, 0, Math.PI * 2);
     ctx.fillStyle = "magenta";
     ctx.fill();
-    // -------------------------
 
-    // Smooth orbital lens movement
-    lens.x = (W * 0.55) + Math.sin(time * 0.00013) * 150;
-    lens.y = (H * 0.50) + Math.cos(time * 0.00017) * 110;
+    console.log("[Hero Diagnostic] 7. Magenta diagnostic dot drawn successfully.");
 
-    for (var i = 0; i < galaxies.length; i++) {
-      var g = galaxies[i];
-      var dx = g.x - lens.x, dy = g.y - lens.y;
-      var theta = Math.sqrt(dx * dx + dy * dy);
-      var phi = Math.atan2(dy, dx);
-
-      var gt = Math.min(0.88, lens.thetaE / (2 * Math.max(theta, 20)));
-
-      var e1 = g.e0 * Math.cos(2 * g.a0) + gt * Math.cos(2 * (phi + Math.PI / 2));
-      var e2 = g.e0 * Math.sin(2 * g.a0) + gt * Math.sin(2 * (phi + Math.PI / 2));
-      var emag = Math.min(0.9, Math.sqrt(e1 * e1 + e2 * e2));
-      var eang = 0.5 * Math.atan2(e2, e1);
-
-      var ratio = (1 - emag) / (1 + emag);
-      var a = g.r * (1 + gt * 0.7), b = a * ratio;
-
-      ctx.save();
-      ctx.translate(g.x, g.y);
-      ctx.rotate(eang);
-      ctx.beginPath();
-      ctx.ellipse(0, 0, a, b, 0, 0, Math.PI * 2);
-      
-      ctx.fillStyle = "rgba(40, 100, 220, " + g.alpha + ")";
-      ctx.fill();
-      ctx.restore();
-    }
+  } catch (error) {
+    console.error("[Hero Diagnostic] FATAL ERROR IN SCRIPT:", error);
   }
-
-  function frame(time) {
-    if (!lastTime) lastTime = time;
-    var dt = time - lastTime;
-    if (dt > 100) dt = 16;
-    elapsed += dt;
-    lastTime = time;
-
-    render(elapsed);
-    rafId = requestAnimationFrame(frame);
-  }
-
-  build();
-  rafId = requestAnimationFrame(frame);
-
-  window.addEventListener('resize', function () {
-    build();
-  });
-})();
+});
 </script>
