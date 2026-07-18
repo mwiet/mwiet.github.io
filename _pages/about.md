@@ -11,7 +11,7 @@ home_hero: true
     <h2 class="c-h2">From the cosmic web to individual galaxies</h2>
     <p class="c-lead c-research__intro">
       I am a cosmologist working at the intersection of theory and observation. My research
-      spans the largest scales of the Universe down to the scales of galaxies &mdash; using
+      spans the largest scales of the Universe down to the scales of galaxies, using
       simulations, gravitational lensing and galaxy surveys to uncover what the cosmos is
       really made of and to test whether our picture of gravity and dark energy still holds.
     </p>
@@ -20,7 +20,7 @@ home_hero: true
       <article class="c-area" role="listitem">
         <span class="c-area__note">&gamma;</span>
         <h3 class="c-area__title">Weak gravitational lensing</h3>
-        <p class="c-area__desc">The subtle, coherent distortion of billions of galaxy shapes by intervening mass &mdash; a direct probe of the dark matter between us and them.</p>
+        <p class="c-area__desc">The subtle, coherent distortion of billions of galaxy shapes by intervening mass: a direct probe of the dark matter between us and them.</p>
       </article>
 
       <article class="c-area" role="listitem">
@@ -32,7 +32,7 @@ home_hero: true
       <article class="c-area" role="listitem">
         <span class="c-area__note">&delta;(<em>x</em>)</span>
         <h3 class="c-area__title">Large-scale structure</h3>
-        <p class="c-area__desc">Modelling the cosmic web &mdash; the filaments, walls and voids whose growth over cosmic time encodes dark matter and dark energy.</p>
+        <p class="c-area__desc">Modelling the cosmic web: the filaments, walls and voids whose growth over cosmic time encodes dark matter and dark energy.</p>
       </article>
 
       <article class="c-area" role="listitem">
