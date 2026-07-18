@@ -76,6 +76,7 @@
   var W = 0, H = 0, DPR = Math.min(window.devicePixelRatio || 1, 2);
   var galaxies = [], stars = [];
   var lens = { x: 0, y: 0, thetaE: 0 };
+  var mouse = { x: 0, y: 0, active: false };
   var running = false, rafId = null, elapsed = 0, lastTime = 0;
 
   function rand(a, b) { return a + Math.random() * (b - a); }
@@ -101,7 +102,7 @@
         r: rand(3.6, 11),
         e0: rand(0.04, 0.20),
         a0: rand(0, Math.PI),
-        alpha: rand(0.16, 0.5)
+        alpha: rand(0.05, 0.25) /* Reduced opacity for better text contrast */
       });
     }
 
@@ -111,22 +112,39 @@
       stars.push({
         x: rand(0, W), y: rand(0, H),
         r: rand(0.3, 1.1),
-        a: rand(0.12, 0.7),
+        a: rand(0.05, 0.3), /* Reduced opacity for stars */
         tw: rand(0, Math.PI * 2),
         warm: Math.random() < 0.5
       });
     }
 
     lens.thetaE = Math.max(120, Math.min(W, H) * 0.36);
+    
+    /* Initialize lens in the default drift position */
+    if (!lens.x && !lens.y) {
+      lens.x = W * (W > 760 ? 0.62 : 0.52);
+      lens.y = H * (W > 760 ? 0.46 : 0.62);
+    }
   }
 
   function lensPos(time) {
-    var cx = W * (W > 760 ? 0.62 : 0.52);
-    var cy = H * (W > 760 ? 0.46 : 0.62);
-    var ax = Math.min(W * 0.14, 150);
-    var ay = Math.min(H * 0.18, 110);
-    lens.x = cx + Math.sin(time * 0.00013) * ax;
-    lens.y = cy + Math.cos(time * 0.00017) * ay;
+    if (mouse.active && !reduceMotion) {
+      /* Smoothly ease towards the cursor when hovering */
+      lens.x += (mouse.x - lens.x) * 0.08;
+      lens.y += (mouse.y - lens.y) * 0.08;
+    } else {
+      /* Revert to default slow drift when mouse leaves the section */
+      var cx = W * (W > 760 ? 0.62 : 0.52);
+      var cy = H * (W > 760 ? 0.46 : 0.62);
+      var ax = Math.min(W * 0.14, 150);
+      var ay = Math.min(H * 0.18, 110);
+      var targetX = cx + Math.sin(time * 0.00013) * ax;
+      var targetY = cy + Math.cos(time * 0.00017) * ay;
+      
+      /* Slower easing back into the drift path */
+      lens.x += (targetX - lens.x) * 0.02;
+      lens.y += (targetY - lens.y) * 0.02;
+    }
   }
 
   function mix(c1, c2, u) {
@@ -139,7 +157,7 @@
   function drawStars(time) {
     for (var i = 0; i < stars.length; i++) {
       var s = stars[i];
-      var tw = 0.6 + 0.4 * Math.sin(time * 0.001 + s.tw);
+      var tw = 0.7 + 0.3 * Math.sin(time * 0.001 + s.tw); 
       var col = s.warm ? GOLD : LENS;
       ctx.beginPath();
       ctx.fillStyle = mix([243, 239, 230], col, 0.5) + (s.a * tw).toFixed(3) + ')';
@@ -168,7 +186,9 @@
       var ratio = (1 - emag) / (1 + emag);
       var u = Math.min(1, gt / 0.55);
       var a = g.r * (1 + u * 0.7), b = a * ratio;
-      var op = Math.min(0.95, g.alpha + u * 0.5);
+      
+      /* Reduced the maximum opacity cap and lowered the shear brightness boost */
+      var op = Math.min(0.5, g.alpha + u * 0.25);
 
       ctx.save();
       ctx.translate(g.x, g.y);
@@ -215,6 +235,32 @@
       start();
     }
   }
+
+  /* Interactive Mouse Tracking */
+  host.addEventListener('mousemove', function(e) {
+    var rect = host.getBoundingClientRect();
+    mouse.x = e.clientX - rect.left;
+    mouse.y = e.clientY - rect.top;
+    mouse.active = true;
+  });
+
+  host.addEventListener('mouseleave', function() {
+    mouse.active = false;
+  });
+
+  /* Interactive Touch Tracking for mobile devices */
+  host.addEventListener('touchmove', function(e) {
+    if (e.touches.length > 0) {
+      var rect = host.getBoundingClientRect();
+      mouse.x = e.touches[0].clientX - rect.left;
+      mouse.y = e.touches[0].clientY - rect.top;
+      mouse.active = true;
+    }
+  }, { passive: true });
+
+  host.addEventListener('touchend', function() {
+    mouse.active = false;
+  });
 
   if ('IntersectionObserver' in window && !reduceMotion) {
     new IntersectionObserver(function (entries) {
