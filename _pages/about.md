@@ -8,12 +8,13 @@ home_hero: true
 <section class="c-cosmos" aria-label="Research overview">
   <div class="c-research">
     <p class="c-eyebrow">Research</p>
-    <h2 class="c-h2">From the cosmic web to individual galaxies</h2>
+    <h2 class="c-h2">From the cosmic web to galaxies to cancer cells</h2>
     <p class="c-lead c-research__intro">
       I am a cosmologist working at the intersection of theory and observation. My research
       spans the largest scales of the Universe down to the scales of galaxies, using
       simulations, gravitational lensing and galaxy surveys to uncover what the cosmos is
       really made of and to test whether our picture of gravity and dark energy still holds.
+      I also develop Bayesian statistical tools which are applied both in cosmology and in cancer research.
     </p>
 
     <div class="c-research__grid" role="list">
