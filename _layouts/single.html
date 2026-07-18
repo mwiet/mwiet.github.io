@@ -4,7 +4,8 @@ layout: default
 
 {% include base_path %}
 
-{% if page.home_hero %}
+{% comment %} Hardwire the hero include to always show on the root homepage {% endcomment %}
+{% if page.url == "/" or page.home_hero %}
   {% include hero-home.html %}
 {% endif %}
 

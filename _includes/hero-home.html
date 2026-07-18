@@ -3,9 +3,10 @@
 <style>
   .c-hero[data-hero] {
     position: relative !important;
-    isolation: isolate !important; /* Traps the z-index:-1 canvas inside this specific container */
+    isolation: isolate !important; 
     overflow: hidden !important;
     background-color: transparent !important;
+    min-height: 60vh; /* Ensure it has physical space on the page */
   }
   
   .c-hero__field[data-shear] {
@@ -14,13 +15,16 @@
     left: 0 !important;
     width: 100% !important;
     height: 100% !important;
-    z-index: -1 !important; /* Tucks safely behind the text */
+    /* DIAGNOSTIC FIX: Change this to a positive number to force it to the front */
+    z-index: 9999 !important; 
     pointer-events: none !important;
+    /* Optional: Add a subtle background color to prove the canvas element exists */
+    background: rgba(255, 0, 0, 0.05) !important; 
   }
   
   .c-hero__scrim, .c-hero__inner {
     position: relative !important;
-    z-index: 1 !important;
+    z-index: 10000 !important; /* Keep text just above the canvas */
   }
 </style>
 
@@ -85,6 +89,12 @@
     var rect = host.getBoundingClientRect();
     W = Math.max(1, Math.floor(rect.width));
     H = Math.max(1, Math.floor(rect.height));
+
+    if (H < 50) {
+      H = Math.floor(window.innerHeight * 0.75); // Fallback to 75% of screen height
+      host.style.minHeight = H + 'px';           // Force the parent container to open
+    }
+
     canvas.width = Math.floor(W * DPR);
     canvas.height = Math.floor(H * DPR);
     canvas.style.width = W + 'px';
