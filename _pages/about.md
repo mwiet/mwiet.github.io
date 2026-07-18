@@ -2,46 +2,61 @@
 permalink: /
 title: ""
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+home_hero: true
 ---
-About me
-==============
 
-I am a cosmologist at the intersection between theory and observation. My research centres around understanding the Universe as a whole from the largest possible scales to the scales of galaxies. I aim to uncover what the Universe is really made of by mapping its vast cosmic web and teasing out the hidden influence of dark matter and dark energy on billions of galaxies. By turning huge sky surveys and space-telescope images from the ESA Euclid and the James Webb space telescopes into tracers of how the scaffolding of the cosmos grows and bends light (see the [illustration below](#how-do-we-detect-dark-matter-seeing-the-invisible-with-gravitational-lensing)), I build the rigorous groundwork needed to test whether our current picture of the Universe and gravity is truly right or if something fundamental is still missing.
+<section class="c-cosmos" aria-label="Research overview">
+  <div class="c-research">
+    <p class="c-eyebrow">Research</p>
+    <h2 class="c-h2">From the cosmic web to individual galaxies</h2>
+    <p class="c-lead c-research__intro">
+      I am a cosmologist working at the intersection of theory and observation. My research
+      spans the largest scales of the Universe down to the scales of galaxies &mdash; using
+      simulations, gravitational lensing and galaxy surveys to uncover what the cosmos is
+      really made of and to test whether our picture of gravity and dark energy still holds.
+    </p>
 
-Specifically, I am interested in dark matter and its effect on the formation of large-scale and small-scale structure around galaxies. I model the observable effects such as strong gravitational lensing, weak gravitational lensing, and galaxy clustering. To this end, I develop simulations as well as Bayesian simulation-based inference pipelines with galaxy surveys such as Euclid, COSMOS-Web, and the Kilo-Degree Survey in mind, together with other various projects.
+    <div class="c-research__grid" role="list">
+      <article class="c-area" role="listitem">
+        <span class="c-area__note">&gamma;</span>
+        <h3 class="c-area__title">Weak gravitational lensing</h3>
+        <p class="c-area__desc">The subtle, coherent distortion of billions of galaxy shapes by intervening mass &mdash; a direct probe of the dark matter between us and them.</p>
+      </article>
 
-To learn more about my work, here is my [recent review of simulation-based inference in cosmology and astrophysics](../files/2025-05-25_sbi-intro_sbi-galev_maximilian_von_wietersheim-kramsta.pdf).
+      <article class="c-area" role="listitem">
+        <span class="c-area__note">&theta;<sub>E</sub></span>
+        <h3 class="c-area__title">Strong gravitational lensing</h3>
+        <p class="c-area__desc">Arcs and multiple images where gravity bends light most sharply, weighing dark matter and structure on the scales of individual galaxies.</p>
+      </article>
 
-Here's an example of one of my recent talks:
-[![Talk: Simulation-Based Inference Analysis of KiDS](../images/video_thumbnail.png)](http://www.youtube.com/watch?v=Byihs5YaCMU "Simulation-Based Inference Analysis of KiDS")
+      <article class="c-area" role="listitem">
+        <span class="c-area__note">&delta;(<em>x</em>)</span>
+        <h3 class="c-area__title">Large-scale structure</h3>
+        <p class="c-area__desc">Modelling the cosmic web &mdash; the filaments, walls and voids whose growth over cosmic time encodes dark matter and dark energy.</p>
+      </article>
 
-I am a member of the following collaborations:
+      <article class="c-area" role="listitem">
+        <span class="c-area__note">&xi;(<em>r</em>)</span>
+        <h3 class="c-area__title">Galaxy clustering</h3>
+        <p class="c-area__desc">Reading the statistics of how galaxies gather across the sky to turn survey maps into precise cosmological constraints.</p>
+      </article>
 
-[<img src="../images/Euclid_consortium_logo.png" width="160" />](https://www.euclid-ec.org/)
-[<img src="../images/Euclid_logo_pillars.png" width="100" />](https://www.cosmos.esa.int/web/euclid)
-[<img src="../images/COSMOSWeb_logo.png" width="160" />](https://cosmos.astro.caltech.edu/page/cosmosweb)
-[<img src="../images/KiDS_logo.jpg" width="160" />](https://kids.strw.leidenuniv.nl/)
-[<img src="../images/NewDM_SpectroScopic_logo.jpg" width="110" />](https://www.desi.lbl.gov/)
+      <article class="c-area" role="listitem">
+        <span class="c-area__note">N-body</span>
+        <h3 class="c-area__title">Cosmological simulations</h3>
+        <p class="c-area__desc">Building synthetic universes that connect theoretical models with what surveys such as Euclid, COSMOS-Web and KiDS actually see.</p>
+      </article>
 
-How do we detect dark matter? Seeing the invisible with gravitational lensing
-==============
+      <article class="c-area" role="listitem">
+        <span class="c-area__note">P(&theta;|<em>d</em>)</span>
+        <h3 class="c-area__title">Bayesian &amp; simulation-based inference</h3>
+        <p class="c-area__desc">Developing rigorous, simulation-based inference pipelines that extract dark-matter and dark-energy constraints from real data.</p>
+      </article>
+    </div>
 
-Dark matter is essentially invisble. To find it, we must look for its effects on the surrounding stars and galaxies. In fact, the gravity from dark matter bends the light of galaxies behind it in a phenomenon called gravitational lensing. By measuring the distortions in the background galaxies caused by the foreground dark matter, we can map where the invisible dark matter actually is, just like in the animation below:
-
-<video width="720" style="max-width: 100%; height: auto;" autoplay loop muted playsinline>
-  <source src="../files/GravLens_H2641080p.mov" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-<p style="font-size: 0.9em; margin-top: 0.5em;"><em>Animation illustrating light from a cluster of galaxies being lensed by dark matter (Source: <a href="https://svs.gsfc.nasa.gov/20244/"> NASA's Goddard Space Flight Center Conceptual Image Lab </a>).</em></p>
-
-How did we get here? A very brief history of dark matter
-==============
-
-My research revolves around understanding dark matter and how it bends light through gravity. Below is a broad overview of some of the observational evidence for dark matter uncovered over the last century:
-
-<img src="../images/brief_history.png" width="720" alt="Timeline of observational evidence of dark matter and future outlooks"/>
-
-
+    <a class="c-link" href="/about/">
+      Read more about me and my work
+      <span class="c-link__arrow" aria-hidden="true">&rarr;</span>
+    </a>
+  </div>
+</section>

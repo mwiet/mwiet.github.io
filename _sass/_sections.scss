@@ -1,0 +1,465 @@
+/* ==========================================================================
+   Cosmology sections — shared component library
+   A light, editorial "scientific" treatment that shares the hero's type and
+   accent palette. The dark hero stays the single immersive signature; these
+   sections are the quiet, disciplined counterpart. Scoped under .c-cosmos so
+   they never collide with the Minimal Mistakes theme.
+   ========================================================================== */
+
+.c-cosmos {
+  /* Ink + accents tuned for legibility on the site's light background,
+     kept in the same family as the hero (_hero.scss). */
+  --ink:        #10131c;   // near-void, for headings
+  --ink-2:      #333c4d;   // body copy
+  --muted:      #667089;   // captions / meta
+  --gold:       #e9b45a;   // hero gold (for dark cards)
+  --gold-ink:   #9c6f16;   // gold that reads on white (eyebrows, rules)
+  --lens:       #7ea6dd;   // hero lens blue (dark cards)
+  --lens-ink:   #33628f;   // lens blue that reads on white (links)
+  --void:       #0b1120;   // dark card background
+  --void-2:     #111a2e;
+  --line:       rgba(16, 19, 28, 0.12);
+  --line-soft:  rgba(16, 19, 28, 0.07);
+  --paper:      #f7f5f0;   // warm panel tint
+
+  color: var(--ink-2);
+  font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* ---- Neutralise theme .page__content rules that would leak in ---------- */
+  p { margin: 0 0 1rem; text-indent: 0; font-size: 1rem; line-height: 1.7; }
+  p + p { text-indent: 0; margin-top: 0; }   // theme adds sibling indent
+  a { text-decoration: none; }
+  img { box-shadow: none; }
+  h1, h2, h3, h4 { border-bottom: 0; padding-bottom: 0; }
+
+  :focus-visible { outline: 2px solid var(--gold-ink); outline-offset: 3px; }
+}
+
+/* Shared eyebrow — a small monospace kicker with a lead rule. */
+.c-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+  margin: 0 0 1.1rem;
+  font-family: "Space Mono", monospace;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold-ink);
+}
+.c-eyebrow::before {
+  content: "";
+  width: 26px;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.7;
+}
+
+/* Shared heading + intro. */
+.c-h2 {
+  margin: 0 0 0.9rem;
+  font-family: "Spectral", Georgia, serif;
+  font-weight: 300;
+  font-size: clamp(1.7rem, 3.6vw, 2.5rem);
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+}
+.c-lead {
+  max-width: 60ch;
+  margin: 0 0 1.2rem;
+  font-size: clamp(1.02rem, 1.5vw, 1.15rem);
+  line-height: 1.65;
+  color: var(--ink-2);
+}
+
+/* ==========================================================================
+   HOME — research areas
+   ========================================================================== */
+
+.c-research {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: clamp(1rem, 3vw, 2rem) 0 clamp(1.5rem, 4vw, 3rem);
+}
+
+.c-research__intro { max-width: 66ch; }
+
+.c-research__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+  gap: 1px;                        // hairline seams between cells
+  margin: 2.2rem 0 2.4rem;
+  background: var(--line-soft);    // shows through the 1px gaps
+  border: 1px solid var(--line-soft);
+}
+
+.c-area {
+  position: relative;
+  padding: 1.5rem 1.5rem 1.6rem;
+  background: #fff;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+.c-area:hover { background: var(--paper); }
+
+.c-area__note {
+  display: inline-block;
+  margin: 0 0 0.9rem;
+  font-family: "Space Mono", monospace;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--gold-ink);
+}
+.c-area__note sub { font-size: 0.7em; }
+
+.c-area__title {
+  margin: 0 0 0.5rem;
+  font-family: "Spectral", Georgia, serif;
+  font-weight: 500;
+  font-size: 1.16rem;
+  line-height: 1.2;
+  color: var(--ink);
+}
+.c-area__desc {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--muted);
+}
+
+/* ==========================================================================
+   Buttons (light context)
+   ========================================================================== */
+
+.c-cosmos .c-link,
+.c-cosmos .c-btn2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  font-family: "Space Mono", monospace;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: transform 0.18s ease, background 0.18s ease, border-color 0.18s ease, color 0.18s ease;
+}
+
+/* Solid ink button. */
+.c-cosmos .c-btn2 {
+  padding: 0.72em 1.3em;
+  color: #fff;
+  background: var(--ink);
+  border: 1px solid var(--ink);
+  border-radius: 2px;
+}
+.c-cosmos .c-btn2:hover,
+.c-cosmos .c-btn2:focus-visible {
+  transform: translateY(-2px);
+  background: #1c2740;
+  color: #fff;
+}
+.c-cosmos .c-btn2--gold {
+  color: var(--void);
+  background: var(--gold);
+  border-color: var(--gold);
+}
+.c-cosmos .c-btn2--gold:hover,
+.c-cosmos .c-btn2--gold:focus-visible { background: #f3c877; color: var(--void); }
+
+/* Quiet text link with arrow. */
+.c-cosmos .c-link {
+  color: var(--lens-ink);
+  border-bottom: 1px solid transparent;
+}
+.c-cosmos .c-link:hover,
+.c-cosmos .c-link:focus-visible { color: var(--ink); }
+.c-link__arrow { transition: transform 0.18s ease; }
+.c-cosmos .c-link:hover .c-link__arrow { transform: translateX(3px); }
+
+/* ==========================================================================
+   ABOUT page
+   ========================================================================== */
+
+.c-about {
+  max-width: 940px;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
+
+/* Intro: lede beside portrait. */
+.c-about__intro {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(1.5rem, 4vw, 2.8rem);
+  align-items: start;
+  margin-bottom: clamp(2.4rem, 5vw, 3.4rem);
+
+  @media (min-width: 40em) {
+    grid-template-columns: minmax(0, 1fr) minmax(150px, 210px);
+  }
+}
+.c-about__title {
+  margin: 0 0 1.1rem;
+  font-family: "Spectral", Georgia, serif;
+  font-weight: 300;
+  font-size: clamp(2rem, 5vw, 3rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+.c-about__lede {
+  font-size: clamp(1.1rem, 1.8vw, 1.32rem);
+  line-height: 1.55;
+  font-weight: 400;
+  color: var(--ink-2);
+}
+.c-about__lede + p { margin-top: 1rem; }
+.c-about__portrait {
+  margin: 0;
+  order: -1;                      // portrait first on mobile
+  @media (min-width: 40em) { order: 0; }
+}
+.c-about__portrait img {
+  display: block;
+  width: clamp(150px, 42vw, 210px);
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  padding: 5px;
+  background: conic-gradient(from -60deg, var(--gold), rgba(126, 166, 221, 0.3), var(--gold));
+  border: 0;
+}
+
+/* Inline actions row (review PDF, arXiv …). */
+.c-about__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.6rem;
+}
+
+/* Generic titled section. */
+.c-section {
+  margin: clamp(2.6rem, 6vw, 4rem) 0 0;
+  padding-top: clamp(2.2rem, 5vw, 3.2rem);
+  border-top: 1px solid var(--line);
+}
+.c-section__intro { max-width: 68ch; }
+
+/* Talk card — thumbnail with a play affordance. */
+.c-talk {
+  display: block;
+  position: relative;
+  max-width: 560px;
+  margin: 1.6rem 0 0;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: var(--void);
+}
+.c-talk img { display: block; width: 100%; height: auto; opacity: 0.94; transition: opacity 0.2s ease, transform 0.4s ease; }
+.c-talk:hover img { opacity: 1; transform: scale(1.02); }
+.c-talk__play {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+}
+.c-talk__play span {
+  display: grid;
+  place-items: center;
+  width: 64px; height: 64px;
+  border-radius: 50%;
+  background: rgba(11, 17, 32, 0.72);
+  border: 1px solid rgba(233, 180, 90, 0.6);
+  color: var(--gold);
+  backdrop-filter: blur(2px);
+}
+.c-talk__play svg { width: 22px; height: 22px; margin-left: 3px; }
+.c-talk__label {
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  padding: 1.4rem 1rem 0.8rem;
+  font-family: "Space Mono", monospace;
+  font-size: 0.74rem;
+  letter-spacing: 0.04em;
+  color: #eef1f6;
+  background: linear-gradient(0deg, rgba(11,17,32,0.85), rgba(11,17,32,0));
+}
+
+/* Collaborations — logos on soft chips so mixed backgrounds sit evenly. */
+.c-collabs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.9rem;
+  margin: 1.6rem 0 0;
+}
+.c-collabs a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 1rem;
+  min-height: 62px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+}
+.c-collabs a:hover {
+  transform: translateY(-2px);
+  border-color: rgba(156, 111, 22, 0.5);
+  box-shadow: 0 10px 24px -14px rgba(0,0,0,0.4);
+}
+.c-collabs img {
+  display: block;
+  width: auto;
+  max-height: 40px;
+  filter: grayscale(1);
+  opacity: 0.72;
+  transition: filter 0.2s ease, opacity 0.2s ease;
+}
+.c-collabs a:hover img { filter: grayscale(0); opacity: 1; }
+
+/* ---- Public-engagement exhibit cards ------------------------------------ */
+.c-exhibits {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.4rem;
+  margin: 1.8rem 0 0;
+  @media (min-width: 46em) { grid-template-columns: 1fr 1fr; }
+}
+.c-exhibit {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: var(--void);
+  color: #e9edf4;
+  border: 1px solid rgba(158, 176, 208, 0.16);
+  border-radius: 6px;
+  box-shadow: 0 18px 40px -28px rgba(0,0,0,0.7);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.c-exhibit:hover {
+  transform: translateY(-3px);
+  border-color: rgba(233, 180, 90, 0.4);
+  box-shadow: 0 26px 50px -26px rgba(0,0,0,0.75);
+}
+.c-exhibit__cover {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+.c-exhibit__cover img {
+  position: absolute;
+  inset: 0;
+  width: 100%; height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+.c-exhibit:hover .c-exhibit__cover img { transform: scale(1.05); }
+.c-exhibit__cover::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(11,17,32,0) 40%, rgba(11,17,32,0.55) 100%);
+}
+.c-exhibit__tag {
+  position: absolute;
+  top: 0.9rem; left: 0.9rem;
+  z-index: 1;
+  padding: 0.32em 0.72em;
+  font-family: "Space Mono", monospace;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--void);
+  background: var(--gold);
+  border-radius: 100px;
+}
+.c-exhibit__tag--lens { background: var(--lens); }
+.c-exhibit__body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 1.3rem 1.4rem 1.5rem;
+}
+.c-exhibit__kicker {
+  margin: 0 0 0.3rem;
+  font-family: "Space Mono", monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+.c-exhibit__title {
+  margin: 0 0 0.6rem;
+  font-family: "Spectral", Georgia, serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.15;
+  color: #fff;
+}
+.c-exhibit__desc {
+  margin: 0 0 1.3rem;
+  font-size: 0.94rem;
+  line-height: 1.6;
+  color: #b9c2d4;
+}
+.c-exhibit__cta {
+  margin-top: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  align-self: flex-start;
+  padding: 0.6em 1.1em;
+  font-family: "Space Mono", monospace;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #0b1120;
+  background: var(--gold);
+  border-radius: 2px;
+  transition: transform 0.18s ease, background 0.18s ease;
+}
+.c-exhibit__cta:hover,
+.c-exhibit__cta:focus-visible { transform: translateY(-2px); background: #f3c877; color: #0b1120; }
+.c-exhibit__cta svg { width: 13px; height: 13px; }
+
+/* ---- Figures (lensing animation, history timeline) ---------------------- */
+.c-figure {
+  margin: 1.7rem 0 0;
+}
+.c-figure__media {
+  overflow: hidden;
+  border-radius: 4px;
+  border: 1px solid var(--line);
+  background: var(--void);
+}
+.c-figure__media video,
+.c-figure__media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 0;
+}
+.c-figure figcaption {
+  margin-top: 0.7rem;
+  font-family: "Space Mono", monospace;
+  font-size: 0.72rem;
+  line-height: 1.55;
+  letter-spacing: 0.01em;
+  color: var(--muted);
+}
+.c-figure figcaption a { color: var(--lens-ink); text-decoration: underline; }
+
+@media (prefers-reduced-motion: reduce) {
+  .c-cosmos * { transition: none !important; }
+}
