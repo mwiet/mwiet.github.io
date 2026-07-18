@@ -44,7 +44,7 @@ home_hero: true
       <article class="c-area" role="listitem">
         <span class="c-area__note">&theta; &rarr; <em>d</em></span>
         <h3 class="c-area__title">Forward simulations</h3>
-        <p class="c-area__desc">Building synthetic universes that connect theoretical models with what surveys such as Euclid, COSMOS-Web and KiDS actually see.</p>
+        <p class="c-area__desc">Building synthetic universes that connect theoretical models with what surveys such as Euclid and KiDS actually see.</p>
       </article>
 
       <article class="c-area" role="listitem">
