@@ -210,6 +210,11 @@ var addressPoints = [
     -0.1277653
   ],
   [
+    "<a href=\"/talks/#2026-09-22\" target=\"_top\">Carlos Frenk @ 75 - Looking into the Dark Conference, Royal Society</a><br>London, United Kingdom",
+    51.5074456,
+    -0.1277653
+  ],
+  [
     "<a href=\"/talks/#2020-11-23\" target=\"_top\">KiDS Meeting, German Centre for Cosmological Lensing, Ruhr-Universit\u00e4t Bochum</a><br>Bochum, Germany",
     51.4818111,
     7.2196635
