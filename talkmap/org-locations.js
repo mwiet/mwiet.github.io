@@ -26,8 +26,8 @@ var addressPoints = [
   ],
   [
     "<a href=\"/talks/#2024-04-10\" target=\"_top\">SBI for Galaxy Evolution, University of Bristol</a><br>Bristol, United Kingdom",
-    51.4430162,
-    -2.581661
+    51.4430141,
+    -2.5816622
   ],
   [
     "<a href=\"/talks/#2026-01-13\" target=\"_top\">Royal Astronomical Society</a><br>London, United Kingdom",
@@ -70,6 +70,11 @@ var addressPoints = [
     18.0710935
   ],
   [
+    "<a href=\"/talks/#2026-08-10\" target=\"_top\">New Frontiers in Cosmology, Universidade da Coru\u00f1a</a><br>A Coru\u00f1a, Spain",
+    43.3454621,
+    -8.4138519
+  ],
+  [
     "<a href=\"/talks/#2024-07-10\" target=\"_top\">CosmoVerse, Jagiellonian University in Krakow</a><br>Krakow, Poland",
     50.0469432,
     19.9971534
@@ -81,13 +86,18 @@ var addressPoints = [
   ],
   [
     "<a href=\"/talks/#2025-03-25\" target=\"_top\">Euclid Consortium Meeting</a><br>Leiden, Netherlands",
-    52.1594747,
-    4.4908843
+    52.1518157,
+    4.4811089
   ],
   [
     "<a href=\"/talks/#2026-04-17\" target=\"_top\">Euclid-UK Meeting, University of Manchester</a><br>Manchester, United Kingdom",
     53.4424618,
     -2.2324547
+  ],
+  [
+    "<a href=\"/talks/#2026-08-25\" target=\"_top\">29th International Conference on Particle Physics and Cosmology (COSMO-26), Leiden University</a><br>Leiden, Netherlands",
+    52.1518157,
+    4.4811089
   ],
   [
     "<a href=\"/talks/#2024-05-21\" target=\"_top\">COSMO21</a><br>Chania, Greece",
@@ -106,8 +116,8 @@ var addressPoints = [
   ],
   [
     "<a href=\"/talks/#2025-05-25\" target=\"_top\">SBI for Galaxy Evolution, University of Bristol</a><br>Bristol, United Kingdom",
-    51.4430162,
-    -2.581661
+    51.4430141,
+    -2.5816622
   ],
   [
     "<a href=\"/talks/#2024-10-16\" target=\"_top\">Institut d'Astrophysique de Paris, Sorbonne Universit\u00e9</a><br>Paris, France",
@@ -146,8 +156,8 @@ var addressPoints = [
   ],
   [
     "<a href=\"/talks/#2025-05-26\" target=\"_top\">SBI for Galaxy Evolution, University of Bristol</a><br>Bristol, United Kingdom",
-    51.4430162,
-    -2.581661
+    51.4430141,
+    -2.5816622
   ],
   [
     "<a href=\"/talks/#2023-03-09\" target=\"_top\">Durham University</a><br>Durham, United Kingdom",
@@ -163,6 +173,11 @@ var addressPoints = [
     "<a href=\"/talks/#2024-05-13\" target=\"_top\">UK Cosmology Meeting/Ruth Fest, King's College London</a><br>London, United Kingdom",
     51.5074456,
     -0.1277653
+  ],
+  [
+    "<a href=\"/talks/#2026-09-09\" target=\"_top\">Cosmic Rhythms Workshop, Brazilian Center for Research in Physics (CBPF)</a><br>Rio de Janeiro, Brazil",
+    -22.9110137,
+    -43.2093727
   ],
   [
     "<a href=\"/talks/#2026-06-24\" target=\"_top\">SBI for Galaxy Evolution, University of Cambridge</a><br>Cambridge, United Kingdom",
@@ -181,8 +196,8 @@ var addressPoints = [
   ],
   [
     "<a href=\"/talks/#2025-03-26\" target=\"_top\">Euclid Consortium Meeting</a><br>Leiden, Netherlands",
-    52.1594747,
-    4.4908843
+    52.1518157,
+    4.4811089
   ],
   [
     "<a href=\"/talks/#2022-05-18\" target=\"_top\">KiDS Meeting, National Centre for Nuclear Research</a><br>Warsaw, Poland",
@@ -221,8 +236,8 @@ var addressPoints = [
   ],
   [
     "<a href=\"/talks/#2025-04-07\" target=\"_top\">University of Hong Kong</a><br>Hong Kong, China",
-    22.2818333,
-    114.1582831
+    22.3492361,
+    114.1857778
   ],
   [
     "<a href=\"/talks/#2022-05-22\" target=\"_top\">KiDS Meeting, E.A. Milne Centre, University of Hull</a><br>Hull, United Kingdom",
