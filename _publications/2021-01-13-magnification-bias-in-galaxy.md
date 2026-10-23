@@ -1,6 +1,7 @@
 ---
 title: "Magnification bias in galaxy surveys with complex sample selection functions"
 collection: publications
+authorship: main
 permalink: /publication/2021-01-13-magnification-bias-in-galaxy
 excerpt: ''
 date: 2021-01-13

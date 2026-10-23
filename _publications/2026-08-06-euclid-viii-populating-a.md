@@ -1,6 +1,7 @@
 ---
 title: "Euclid: VIII. Populating a dark universe using SciPIC"
 collection: publications
+authorship: infrastructure
 permalink: /publication/2026-08-06-euclid-viii-populating-a
 excerpt: ''
 date: 2026-08-06

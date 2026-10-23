@@ -1,6 +1,7 @@
 ---
 title: "KiDS-SBI: Simulation-based inference analysis of KiDS-1000 cosmic shear"
 collection: publications
+authorship: main
 permalink: /publication/2024-04-23-kidssbi-simulationbased-inference-analysis
 excerpt: ''
 date: 2024-04-23

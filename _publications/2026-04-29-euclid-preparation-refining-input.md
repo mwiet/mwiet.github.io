@@ -1,6 +1,7 @@
 ---
 title: "Euclid preparation. Refining input galaxy shape distributions for shear calibration simulations"
 collection: publications
+authorship: infrastructure
 permalink: /publication/2026-04-29-euclid-preparation-refining-input
 excerpt: ''
 date: 2026-04-29

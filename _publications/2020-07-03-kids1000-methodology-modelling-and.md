@@ -1,6 +1,7 @@
 ---
 title: "KiDS-1000 methodology: Modelling and inference for joint weak gravitational lensing and spectroscopic galaxy clustering analysis"
 collection: publications
+authorship: contributing
 permalink: /publication/2020-07-03-kids1000-methodology-modelling-and
 excerpt: ''
 date: 2020-07-03

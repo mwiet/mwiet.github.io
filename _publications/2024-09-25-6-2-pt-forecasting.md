@@ -1,6 +1,7 @@
 ---
 title: "6 × 2 pt: Forecasting gains from joint weak lensing and galaxy clustering analyses with spectroscopic-photometric galaxy cross-correlations"
 collection: publications
+authorship: contributing
 permalink: /publication/2024-09-25-6-2-pt-forecasting
 excerpt: ''
 date: 2024-09-25

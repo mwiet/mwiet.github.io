@@ -1,6 +1,7 @@
 ---
 title: "KiDS-Legacy: Consistency of cosmic shear measurements and joint cosmological constraints with external probes"
 collection: publications
+authorship: infrastructure
 permalink: /publication/2025-03-25-kidslegacy-consistency-of-cosmic
 excerpt: ''
 date: 2025-03-25

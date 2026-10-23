@@ -1,6 +1,7 @@
 ---
 title: "Detection of a dark matter subhalo in the strongly lensed system PJ011646"
 collection: publications
+authorship: contributing
 permalink: /publication/2026-05-20-detection-of-a-dark
 excerpt: ''
 date: 2026-05-20

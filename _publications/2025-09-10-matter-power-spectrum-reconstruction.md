@@ -1,6 +1,7 @@
 ---
 title: "Matter power spectrum reconstruction with KiDS-Legacy: Improved internal ΛCDM consistency and preference for strong baryonic feedback"
 collection: publications
+authorship: infrastructure
 permalink: /publication/2025-09-10-matter-power-spectrum-reconstruction
 excerpt: ''
 date: 2025-09-10

@@ -1,6 +1,7 @@
 ---
 title: "KiDS-Legacy: Redshift distributions and their calibration"
 collection: publications
+authorship: infrastructure
 permalink: /publication/2025-03-25-kidslegacy-redshift-distributions-and
 excerpt: ''
 date: 2025-03-25

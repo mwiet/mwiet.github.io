@@ -1,6 +1,7 @@
 ---
 title: "A simulation-based inference pipeline for cosmic shear with the Kilo-Degree Survey"
 collection: publications
+authorship: main
 permalink: /publication/2022-12-08-a-simulationbased-inference-pipeline
 excerpt: ''
 date: 2022-12-08

@@ -1,6 +1,7 @@
 ---
 title: "Euclid: I. Overview of the Euclid mission"
 collection: publications
+authorship: infrastructure
 permalink: /publication/2024-05-22-euclid-i-overview-of
 excerpt: ''
 date: 2024-05-22

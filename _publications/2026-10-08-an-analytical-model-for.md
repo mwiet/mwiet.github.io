@@ -1,6 +1,7 @@
 ---
 title: "An analytical model for non-local stochastic field-level galaxy bias on the sphere"
 collection: publications
+authorship: main
 permalink: /publication/2026-10-08-an-analytical-model-for
 excerpt: ''
 date: 2026-10-08

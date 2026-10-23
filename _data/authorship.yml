@@ -1,0 +1,7 @@
+# Publication groups, in display order. 'key' matches the 'authorship' field in _publications/*.md
+- key: main
+  title: "Main/corresponding author"
+- key: contributing
+  title: "Contributing author"
+- key: infrastructure
+  title: "Authorship resulting from infrastructure contributions"

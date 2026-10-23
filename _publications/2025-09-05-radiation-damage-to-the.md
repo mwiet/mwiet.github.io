@@ -1,6 +1,7 @@
 ---
 title: "Radiation damage to the Hubble Space Telescope during two solar cycles, and correction of charge transfer inefficiency using ArCTIc"
 collection: publications
+authorship: contributing
 permalink: /publication/2025-09-05-radiation-damage-to-the
 excerpt: ''
 date: 2025-09-05

@@ -144,6 +144,12 @@ Skills
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
+{% for group in site.data.authorship %}
+  {% assign pubs = site.publications | where: "authorship", group.key | sort: "date" | reverse %}
+  {% if pubs.size > 0 %}
+  <h3>{{ group.title }}</h3>
+  <ul>{% for post in pubs %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+  {% endif %}
+{% endfor %}

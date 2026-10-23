@@ -1,6 +1,7 @@
 ---
 title: "Euclid preparation. The shape of halo profiles in $Λ$CDM and non-standard cosmologies"
 collection: publications
+authorship: infrastructure
 permalink: /publication/2026-09-03-euclid-preparation-the-shape
 excerpt: ''
 date: 2026-09-03

@@ -1,6 +1,7 @@
 ---
 title: "Transformational astrophysics and exoplanet science with Habitable Worlds Observatory's High Resolution Imager"
 collection: publications
+authorship: contributing
 permalink: /publication/2025-12-18-transformational-astrophysics-and-exoplanet
 excerpt: ''
 date: 2025-12-18

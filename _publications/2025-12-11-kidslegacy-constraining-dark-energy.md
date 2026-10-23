@@ -1,6 +1,7 @@
 ---
 title: "KiDS-Legacy: Constraining dark energy, neutrino mass, and curvature"
 collection: publications
+authorship: infrastructure
 permalink: /publication/2025-12-11-kidslegacy-constraining-dark-energy
 excerpt: ''
 date: 2025-12-11

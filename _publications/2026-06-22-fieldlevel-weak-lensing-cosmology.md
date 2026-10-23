@@ -1,6 +1,7 @@
 ---
 title: "Field-level weak lensing cosmology with 60 simulations using multifidelity simulation-based inference"
 collection: publications
+authorship: contributing
 permalink: /publication/2026-06-22-fieldlevel-weak-lensing-cosmology
 excerpt: ''
 date: 2026-06-22

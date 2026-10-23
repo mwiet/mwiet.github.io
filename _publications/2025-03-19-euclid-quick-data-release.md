@@ -1,6 +1,7 @@
 ---
 title: "Euclid Quick Data Release (Q1): VIS processing and data products"
 collection: publications
+authorship: contributing
 permalink: /publication/2025-03-19-euclid-quick-data-release
 excerpt: ''
 date: 2025-03-19

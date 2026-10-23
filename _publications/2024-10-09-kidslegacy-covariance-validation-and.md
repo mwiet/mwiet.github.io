@@ -1,6 +1,7 @@
 ---
 title: "KiDS-Legacy: Covariance validation and the unified ONECOVARIANCE framework for projected large-scale structure observables"
 collection: publications
+authorship: contributing
 permalink: /publication/2024-10-09-kidslegacy-covariance-validation-and
 excerpt: ''
 date: 2024-10-09

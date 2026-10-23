@@ -1,6 +1,7 @@
 ---
 title: "Euclid Bypass end-to-end simulations for spectroscopic galaxy clustering performance assessment"
 collection: publications
+authorship: infrastructure
 permalink: /publication/2026-10-19-euclid-bypass-endtoend-simulations
 excerpt: ''
 date: 2026-10-19

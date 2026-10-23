@@ -1,6 +1,7 @@
 ---
 title: "Probing dark matter substructures with free-form modelling: a case study of the 'Jackpot' strong lens"
 collection: publications
+authorship: contributing
 permalink: /publication/2025-04-27-probing-dark-matter-substructures
 excerpt: ''
 date: 2025-04-27

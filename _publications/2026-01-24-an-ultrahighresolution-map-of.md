@@ -1,6 +1,7 @@
 ---
 title: "An ultra-high-resolution map of (dark) matter"
 collection: publications
+authorship: contributing
 permalink: /publication/2026-01-24-an-ultrahighresolution-map-of
 excerpt: ''
 date: 2026-01-24

@@ -1,6 +1,7 @@
 ---
 title: "Radiation damage to the Hubble Space Telescope has been several years out of phase with the Solar cycle"
 collection: publications
+authorship: main
 permalink: /publication/2026-08-18-radiation-damage-to-the
 excerpt: ''
 date: 2026-08-18

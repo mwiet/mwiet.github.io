@@ -1,6 +1,7 @@
 ---
 title: "KiDS-Legacy: Angular galaxy clustering from deep surveys with complex selection effects"
 collection: publications
+authorship: infrastructure
 permalink: /publication/2024-10-30-kidslegacy-angular-galaxy-clustering
 excerpt: ''
 date: 2024-10-30

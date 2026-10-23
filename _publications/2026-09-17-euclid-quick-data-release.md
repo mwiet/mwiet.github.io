@@ -1,6 +1,7 @@
 ---
 title: "Euclid Quick Data Release (Q1) Euclid spectroscopy of quasars. 2. Physical properties from spectral fitting"
 collection: publications
+authorship: infrastructure
 permalink: /publication/2026-09-17-euclid-quick-data-release
 excerpt: ''
 date: 2026-09-17

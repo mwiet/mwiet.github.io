@@ -1,6 +1,7 @@
 ---
 title: "Euclid. Populating a dark universe with galaxies using SciPIC"
 collection: publications
+authorship: infrastructure
 permalink: /publication/2026-04-16-euclid-populating-a-dark
 excerpt: ''
 date: 2026-04-16

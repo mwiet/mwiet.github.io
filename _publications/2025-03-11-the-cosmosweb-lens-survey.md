@@ -1,6 +1,7 @@
 ---
 title: "The COSMOS-Web Lens Survey (COWLS) I: discovery of &gt;100 high redshift strong lenses in contiguous JWST imaging"
 collection: publications
+authorship: contributing
 permalink: /publication/2025-03-11-the-cosmosweb-lens-survey
 excerpt: ''
 date: 2025-03-11

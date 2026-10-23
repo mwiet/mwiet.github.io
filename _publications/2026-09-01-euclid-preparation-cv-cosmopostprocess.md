@@ -1,6 +1,7 @@
 ---
 title: "Euclid preparation: CV. CosmoPostProcess: A simulation calibrated framework for weak lensing selection bias in richness-selected galaxy clusters"
 collection: publications
+authorship: infrastructure
 permalink: /publication/2026-09-01-euclid-preparation-cv-cosmopostprocess
 excerpt: ''
 date: 2026-09-01

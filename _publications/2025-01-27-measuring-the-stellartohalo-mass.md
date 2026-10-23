@@ -1,6 +1,7 @@
 ---
 title: "Measuring the stellar-to-halo mass relation at ∼10<SUP>10</SUP> solar masses, using forthcoming space-based imaging of galaxy─galaxy strong lenses"
 collection: publications
+authorship: contributing
 permalink: /publication/2025-01-27-measuring-the-stellartohalo-mass
 excerpt: ''
 date: 2025-01-27

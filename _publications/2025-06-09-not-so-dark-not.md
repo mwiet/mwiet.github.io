@@ -1,6 +1,7 @@
 ---
 title: "Not So Dark, Not So Dense: An Alternative Explanation for the Lensing Subhalo in SDSS J0946+1006"
 collection: publications
+authorship: contributing
 permalink: /publication/2025-06-09-not-so-dark-not
 excerpt: ''
 date: 2025-06-09

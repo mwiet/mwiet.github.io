@@ -1,6 +1,7 @@
 ---
 title: "Euclid. A two-point correlation approach to diagnosing star-related systematics in the Euclid spectroscopic survey"
 collection: publications
+authorship: infrastructure
 permalink: /publication/2026-09-04-euclid-a-twopoint-correlation
 excerpt: ''
 date: 2026-09-04

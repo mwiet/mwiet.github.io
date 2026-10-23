@@ -1,6 +1,7 @@
 ---
 title: "Euclid Quick Data Release (Q1). Data processing for intracluster light measurements"
 collection: publications
+authorship: infrastructure
 permalink: /publication/2026-10-21-euclid-quick-data-release
 excerpt: ''
 date: 2026-10-21

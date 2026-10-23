@@ -11,6 +11,12 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
+{% for group in site.data.authorship %}
+  {% assign pubs = site.publications | where: "authorship", group.key | sort: "date" | reverse %}
+  {% if pubs.size > 0 %}
+  <h2>{{ group.title }}</h2>
+  {% for post in pubs %}
+    {% include archive-single.html %}
+  {% endfor %}
+  {% endif %}
 {% endfor %}

@@ -1,6 +1,7 @@
 ---
 title: "KiDS-Legacy: Constraints on Horndeski gravity from weak lensing combined with galaxy clustering and cosmic microwave background anisotropies"
 collection: publications
+authorship: infrastructure
 permalink: /publication/2025-12-11-kidslegacy-constraints-on-horndeski
 excerpt: ''
 date: 2025-12-11

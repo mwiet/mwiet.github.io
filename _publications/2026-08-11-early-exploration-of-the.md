@@ -1,6 +1,7 @@
 ---
 title: "Early Exploration of the Scientific Discovery Space for the Habitable Worlds Observatory"
 collection: publications
+authorship: contributing
 permalink: /publication/2026-08-11-early-exploration-of-the
 excerpt: ''
 date: 2026-08-11

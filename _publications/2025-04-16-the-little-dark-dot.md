@@ -1,6 +1,7 @@
 ---
 title: 'The "Little Dark Dot": Evidence for Self-interacting Dark Matter in the Strong Lens SDSS J0946+1006?'
 collection: publications
+authorship: contributing
 permalink: /publication/2025-04-16-the-little-dark-dot
 excerpt: ''
 date: 2025-04-16

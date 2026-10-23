@@ -1,6 +1,7 @@
 ---
 title: "KiDS-Legacy: Cosmological constraints from cosmic shear with the complete Kilo-Degree Survey"
 collection: publications
+authorship: contributing
 permalink: /publication/2025-03-25-kidslegacy-cosmological-constraints-from
 excerpt: ''
 date: 2025-03-25

@@ -1,6 +1,7 @@
 ---
 title: "Dark energy and equivalence principle constraints from astrophysical tests of the stability of the fine-structure constant"
 collection: publications
+authorship: contributing
 permalink: /publication/2015-08-26-dark-energy
 excerpt: ''
 date: 2015-08-26

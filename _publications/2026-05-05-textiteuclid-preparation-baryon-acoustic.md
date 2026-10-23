@@ -1,6 +1,7 @@
 ---
 title: "Euclid preparation. Baryon acoustic oscillations extraction techniques: comparison and optimisation"
 collection: publications
+authorship: infrastructure
 permalink: /publication/2026-05-05-textiteuclid-preparation-baryon-acoustic
 excerpt: ''
 date: 2026-05-05

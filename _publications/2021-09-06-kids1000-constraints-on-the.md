@@ -1,6 +1,7 @@
 ---
 title: "KiDS-1000: Constraints on the intrinsic alignment of luminous red galaxies"
 collection: publications
+authorship: contributing
 permalink: /publication/2021-09-06-kids1000-constraints-on-the
 excerpt: ''
 date: 2021-09-06

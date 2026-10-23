@@ -1,6 +1,7 @@
 ---
 title: "GLASS: Generator for Large Scale Structure"
 collection: publications
+authorship: contributing
 permalink: /publication/2023-02-03-glass-generator-for-large
 excerpt: ''
 date: 2023-02-03
